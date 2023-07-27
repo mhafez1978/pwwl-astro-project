@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.card {
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card p {
+  white-space: wrap;
+  text-align: start;
+}

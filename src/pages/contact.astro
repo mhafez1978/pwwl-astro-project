@@ -1,0 +1,25 @@
+---
+import LandingLayout from "../layouts/LandingLayout.astro";
+import Spinner from "../components/Spinner.astro";
+import ToTop from "../components/ToTop.astro";
+import CharlotteEvents from "../components/CharlotteEventsRadius";
+
+interface Props {
+  pageTitle: string;
+}
+
+const { pageTitle } = Astro.props;
+---
+
+<LandingLayout pageTitle="Contact">
+  <Spinner />
+  <div
+    class="container-fluid"
+    style="margin:0 auto; min-height:100vh;z-index:-1;"
+  >
+    <div style="width:86vw;margin:100px auto;">
+      <CharlotteEvents client:load />
+    </div>
+  </div>
+  <ToTop />
+</LandingLayout>

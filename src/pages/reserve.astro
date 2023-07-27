@@ -1,0 +1,26 @@
+---
+import LandingLayout from "../layouts/LandingLayout.astro";
+import Spinner from "../components/Spinner.astro";
+import ToTop from "../components/ToTop.astro";
+interface Props {
+  pageTitle: string;
+}
+
+const { pageTitle } = Astro.props;
+---
+
+<LandingLayout pageTitle="Reserve">
+  <Spinner />
+  <div
+    class="container-fluid"
+    style="margin-top:100px; min-height:100vh;z-index:-1;"
+  >
+    <div style="width:86vw;margin:100px auto;">
+      <h2>Welcome to PWWL Reservations Page</h2>
+      <h4>We have the best limo cars...</h4>
+      <p>We love to take you places</p>
+      <p>This is the latest news page</p>
+    </div>
+  </div>
+  <ToTop />
+</LandingLayout>

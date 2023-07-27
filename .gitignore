@@ -1,3 +1,5 @@
+# environment vars
+env.json
 # build output
 dist/
 

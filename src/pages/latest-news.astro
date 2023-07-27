@@ -1,0 +1,43 @@
+---
+import Spinner from "../components/Spinner.astro";
+import ToTop from "../components/ToTop.astro";
+import CharlotteEvents from "../components/CharlotteEvents";
+import LandingLayout from "../layouts/LandingLayout.astro";
+
+interface Props {
+  pageTitle: string;
+}
+
+const { pageTitle } = Astro.props;
+---
+
+<LandingLayout pageTitle="Charlotte Events">
+  <Spinner />
+  <div class="container-fluid" style="margin-top:40px; min-height:100vh;">
+    <div style="margin:20px auto;">
+      <div
+        style="
+        margin:4px, 4px;
+        padding:4px;
+        min-height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align:justify;
+        "
+      >
+        <center>
+          <h1>Happening Near You.</h1>
+          <br />
+        </center>
+        <CharlotteEvents client:load />
+      </div>
+    </div>
+  </div>
+  <ToTop />
+</LandingLayout>
+
+<style>
+  .card-header {
+    padding: 0 !important;
+  }
+</style>

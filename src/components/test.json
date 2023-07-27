@@ -1,0 +1,2157 @@
+{
+  "events": [
+    {
+      "type": "minor_league_baseball",
+      "id": 5855894,
+      "datetime_utc": "2023-07-25T21:45:00",
+      "venue": {
+        "state": "MA",
+        "name_v2": "Polar Park",
+        "postal_code": "01610",
+        "name": "Polar Park",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/polar-park/tickets",
+        "score": 0.37,
+        "location": {
+          "lat": 42.2584,
+          "lon": -71.8034
+        },
+        "address": "122 Madison Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 31,
+        "city": "Worcester",
+        "slug": "polar-park",
+        "extended_address": "Worcester, MA 01610",
+        "id": 518759,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 506,
+        "capacity": 0,
+        "display_location": "Worcester, MA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Worcester Red Sox",
+          "image": "https://seatgeek.com/images/performers-landscape/worcester-red-sox-2893da/9249/huge.jpg",
+          "id": 9249,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/worcester-red-sox-2893da/9249/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 54
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022",
+          "url": "https://seatgeek.com/worcester-red-sox-tickets",
+          "score": 0.37,
+          "slug": "worcester-red-sox",
+          "home_venue_id": 518759,
+          "short_name": "Pawtucket Red Sox",
+          "num_upcoming_events": 54,
+          "colors": null,
+          "image_license": "SeatGeek - 2022",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 42.2584,
+            "lon": -71.8034
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Rochester Red Wings",
+          "image": "https://seatgeek.com/images/performers-landscape/rochester-red-wings-5f3e43/9269/huge.jpg",
+          "id": 9269,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/rochester-red-wings-5f3e43/9269/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 54
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022",
+          "url": "https://seatgeek.com/rochester-red-wings-tickets",
+          "score": 0.35,
+          "slug": "rochester-red-wings",
+          "home_venue_id": 4298,
+          "short_name": "Rochester Red Wings",
+          "num_upcoming_events": 54,
+          "colors": null,
+          "image_license": "SeatGeek - 2022",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 43.1584,
+            "lon": -77.6203
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-25T17:45:00",
+      "time_tbd": false,
+      "short_title": "Rochester Red Wings at Worcester Red Sox",
+      "visible_until_utc": "2023-07-26T01:45:00",
+      "stats": {
+        "listing_count": 50,
+        "average_price": 33,
+        "lowest_price_good_deals": null,
+        "lowest_price": 12,
+        "highest_price": 86,
+        "visible_listing_count": 50,
+        "dq_bucket_counts": [0, 0, 0, 0, 0, 0, 0, 0],
+        "median_price": 29,
+        "lowest_sg_base_price": 3,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/rochester-red-wings-at-worcester-red-sox-tickets/minor-league-baseball/2023-07-25-5-45-pm/5855894",
+      "score": 0.357,
+      "announce_date": "2022-10-28T00:00:00",
+      "created_at": "2022-10-28T16:00:20",
+      "date_tbd": false,
+      "title": "Rochester Red Wings at Worcester Red Sox",
+      "popularity": 0.76,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:50:59Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 5869209,
+      "datetime_utc": "2023-07-25T23:00:00",
+      "venue": {
+        "state": "MA",
+        "name_v2": "MGM Music Hall at Fenway",
+        "postal_code": "02215",
+        "name": "MGM Music Hall at Fenway",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/mgm-music-hall-at-fenway-2/tickets",
+        "score": 0.8,
+        "location": {
+          "lat": 42.3469,
+          "lon": -71.0946
+        },
+        "address": "4 Lansdowne Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 75,
+        "city": "Boston",
+        "slug": "mgm-music-hall-at-fenway-2",
+        "extended_address": "Boston, MA 02215",
+        "id": 520094,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 506,
+        "capacity": 0,
+        "display_location": "Boston, MA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Louis Tomlinson",
+          "image": "https://seatgeek.com/images/performers-landscape/louis-tomlinson-9b67bc/165426/huge.jpg",
+          "id": 165426,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/louis-tomlinson-9b67bc/165426/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 4
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (Creative Project)",
+          "url": "https://seatgeek.com/louis-tomlinson-tickets",
+          "score": 0.61,
+          "slug": "louis-tomlinson",
+          "home_venue_id": null,
+          "short_name": "Louis Tomlinson",
+          "num_upcoming_events": 4,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (Creative Project)",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        },
+        {
+          "type": "band",
+          "name": "Giant Rooks",
+          "image": "https://seatgeek.com/images/performers-landscape/giant-rooks-38beef/789192/huge.jpg",
+          "id": 789192,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/giant-rooks-38beef/789192/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 9
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "Roberto Panucci - Corbis / Getty Images Entertainment / Getty Images",
+          "url": "https://seatgeek.com/giant-rooks-tickets",
+          "score": 0.62,
+          "slug": "giant-rooks",
+          "home_venue_id": null,
+          "short_name": "Giant Rooks",
+          "num_upcoming_events": 9,
+          "colors": null,
+          "image_license": "rightsmanaged",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": "(c) Roberto Panucci - Corbis / Getty Images Entertainment / Getty Images"
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-25T19:00:00",
+      "time_tbd": false,
+      "short_title": "Louis Tomlinson with Giant Rooks",
+      "visible_until_utc": "2023-07-26T03:00:00",
+      "stats": {
+        "listing_count": 25,
+        "average_price": 63,
+        "lowest_price_good_deals": 27,
+        "lowest_price": 27,
+        "highest_price": 189,
+        "visible_listing_count": 24,
+        "dq_bucket_counts": [2, 11, 6, 1, 1, 2, 4, 0],
+        "median_price": 37,
+        "lowest_sg_base_price": 15,
+        "lowest_sg_base_price_good_deals": 15
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 1
+        }
+      ],
+      "url": "https://seatgeek.com/louis-tomlinson-with-giant-rooks-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2-2023-07-25-7-pm/concert/5869209",
+      "score": 0.474,
+      "announce_date": "2022-11-12T00:00:00",
+      "created_at": "2022-11-12T16:34:59",
+      "date_tbd": false,
+      "title": "Louis Tomlinson with Giant Rooks",
+      "popularity": 0.817,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:52:35Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 6049223,
+      "datetime_utc": "2023-07-25T23:00:00",
+      "venue": {
+        "state": "MA",
+        "name_v2": "Brighton Music Hall",
+        "postal_code": "02134",
+        "name": "Brighton Music Hall",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/brighton-music-hall/tickets",
+        "score": 0.55,
+        "location": {
+          "lat": 42.3529,
+          "lon": -71.1326
+        },
+        "address": "158 Brighton Avenue",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 55,
+        "city": "Boston",
+        "slug": "brighton-music-hall",
+        "extended_address": "Boston, MA 02134",
+        "id": 1446,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 506,
+        "capacity": 476,
+        "display_location": "Boston, MA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Tommy Newport",
+          "image": "https://seatgeek.com/images/performers-landscape/tommy-newport-23408b/697517/huge.jpg",
+          "id": 697517,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/tommy-newport-23408b/697517/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 3
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/tommy-newport-tickets",
+          "score": 0.26,
+          "slug": "tommy-newport",
+          "home_venue_id": null,
+          "short_name": "Tommy Newport",
+          "num_upcoming_events": 3,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "genres": [
+            {
+              "id": 457,
+              "name": "Alternative",
+              "slug": "alternative",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/noah-kahan-09d995/615350/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/noah-kahan-04d21f/615350/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/noah-kahan-79ddd1/615350/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/noah-kahan-b37677/615350/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/noah-kahan-c4d152/615350/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/noah-kahan-85f928/615350/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/noah-kahan-9977cf/615350/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/noah-kahan-e89102/615350/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/noah-kahan-810f70/615350/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/noah-kahan-834f2b/615350/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/noah-kahan-62e0dd/615350/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/noah-kahan-1c06ce/615350/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/noah-kahan-7bf706/615350/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/noah-kahan-933507/615350/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/noah-kahan-62bc02/615350/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/noah-kahan-3bccc3/615350/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/noah-kahan-82bed1/615350/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/noah-kahan-748f95/615350/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/noah-kahan-9ae98e/615350/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/noah-kahan-738624/615350/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/noah-kahan-933507/615350/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        },
+        {
+          "type": "band",
+          "name": "DJ Carbo",
+          "image": "https://seatgeek.com/images/performers-landscape/dj-carbo-16557f/19948/huge.jpg",
+          "id": 19948,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/dj-carbo-16557f/19948/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 3
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/dj-carbo-tickets",
+          "score": 0.27,
+          "slug": "dj-carbo",
+          "home_venue_id": null,
+          "short_name": "DJ Carbo",
+          "num_upcoming_events": 3,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "genres": [
+            {
+              "id": 457,
+              "name": "Alternative",
+              "slug": "alternative",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/ben-rector-879aa3/6138/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/ben-rector-e42cb1/6138/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/ben-rector-e86f86/6138/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/ben-rector-785651/6138/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/ben-rector-0b1573/6138/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/ben-rector-ec9bbc/6138/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/ben-rector-b2fa03/6138/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/ben-rector-50c8c1/6138/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/ben-rector-44dcef/6138/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/ben-rector-37d242/6138/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/ben-rector-a284f2/6138/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/ben-rector-710409/6138/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/ben-rector-2bae8c/6138/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/ben-rector-76723a/6138/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/ben-rector-ea3ab6/6138/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/ben-rector-23ac96/6138/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/ben-rector-8b7915/6138/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/ben-rector-46a3fc/6138/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/ben-rector-f931b5/6138/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/ben-rector-1cf842/6138/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/ben-rector-76723a/6138/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-25T19:00:00",
+      "time_tbd": false,
+      "short_title": "Tommy Newport with DJ Carbo",
+      "visible_until_utc": "2023-07-26T03:00:00",
+      "stats": {
+        "listing_count": 5,
+        "average_price": 156,
+        "lowest_price_good_deals": 50,
+        "lowest_price": 50,
+        "highest_price": 626,
+        "visible_listing_count": 5,
+        "dq_bucket_counts": [0, 3, 1, 0, 0, 0, 2, 0],
+        "median_price": 69,
+        "lowest_sg_base_price": 33,
+        "lowest_sg_base_price_good_deals": 33
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 1
+        }
+      ],
+      "url": "https://seatgeek.com/tommy-newport-with-dj-carbo-tickets/boston-massachusetts-brighton-music-hall-2023-07-25-7-pm/concert/6049223",
+      "score": 0.193,
+      "announce_date": "2023-06-07T00:00:00",
+      "created_at": "2023-06-07T11:56:52",
+      "date_tbd": false,
+      "title": "Tommy Newport with DJ Carbo",
+      "popularity": 0.679,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-06-21T11:35:48Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 6001220,
+      "datetime_utc": "2023-07-25T23:00:00",
+      "venue": {
+        "state": "MA",
+        "name_v2": "Xfinity Center - MA",
+        "postal_code": "02048",
+        "name": "Xfinity Center - MA",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/xfinity-center-ma-2/tickets",
+        "score": 0.79,
+        "location": {
+          "lat": 41.9924,
+          "lon": -71.22
+        },
+        "address": "885 S Main St",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 19,
+        "city": "Mansfield",
+        "slug": "xfinity-center-ma-2",
+        "extended_address": "Mansfield, MA 02048",
+        "id": 60,
+        "popularity": 0,
+        "access_method": {
+          "method": "QRCODE_TM",
+          "created_at": "2015-07-21T00:00:00Z",
+          "employee_only": false
+        },
+        "metro_code": 521,
+        "capacity": 0,
+        "display_location": "Mansfield, MA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Boy George",
+          "image": "https://seatgeek.com/images/performers-landscape/boy-george-f99727/64417/huge.jpg",
+          "id": 64417,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/boy-george-f99727/64417/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 19
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "Scott Dudelson / Getty Images Entertainment / Getty Images",
+          "url": "https://seatgeek.com/boy-george-tickets",
+          "score": 0.47,
+          "slug": "boy-george",
+          "home_venue_id": null,
+          "short_name": "Boy George",
+          "num_upcoming_events": 19,
+          "colors": null,
+          "image_license": "rightsmanaged",
+          "genres": [
+            {
+              "id": 452,
+              "name": "Pop",
+              "slug": "pop",
+              "primary": false,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/drake-b29aab/2351/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/drake-80d011/2351/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/drake-ca8205/2351/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/drake-1d9013/2351/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/drake-40f192/2351/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/drake-6fd342/2351/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/drake-915735/2351/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/drake-7e9c74/2351/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/drake-6ee009/2351/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/drake-2f0d71/2351/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/drake-ede946/2351/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/drake-9d504e/2351/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/drake-2cd846/2351/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/drake-6f7a36/2351/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/drake-d348e8/2351/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/drake-31df3d/2351/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/drake-35a99f/2351/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/drake-97d814/2351/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/drake-bbe912/2351/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/drake-956e60/2351/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/drake-6f7a36/2351/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            },
+            {
+              "id": 456,
+              "name": "Rock",
+              "slug": "rock",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/taylor-swift-95bfc1/35/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/taylor-swift-5aed70/35/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/taylor-swift-ea1e7e/35/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/taylor-swift-23f9f5/35/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/taylor-swift-1ad124/35/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/taylor-swift-397e97/35/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/taylor-swift-9e502b/35/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/taylor-swift-310144/35/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/taylor-swift-19e3f0/35/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/taylor-swift-92ebf3/35/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/taylor-swift-bab6e1/35/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1dbf4/35/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/taylor-swift-15afb9/35/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1e4b6/35/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/taylor-swift-3ebde5/35/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/taylor-swift-a807ae/35/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/taylor-swift-69d4a9/35/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/taylor-swift-5a3f01/35/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/taylor-swift-db2f1f/35/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/taylor-swift-c3abf8/35/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1e4b6/35/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": "(c) Scott Dudelson / Getty Images Entertainment / Getty Images"
+        },
+        {
+          "type": "band",
+          "name": "Culture Club",
+          "image": "https://seatgeek.com/images/performers-landscape/culture-club-55632e/10345/huge.jpg",
+          "id": 10345,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/culture-club-55632e/10345/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 17
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "Ethan Miller / Getty Images Entertainment / Getty Images",
+          "url": "https://seatgeek.com/culture-club-tickets",
+          "score": 0.46,
+          "slug": "culture-club",
+          "home_venue_id": null,
+          "short_name": "Culture Club",
+          "num_upcoming_events": 17,
+          "colors": null,
+          "image_license": "rightsmanaged",
+          "genres": [
+            {
+              "id": 452,
+              "name": "Pop",
+              "slug": "pop",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/drake-b29aab/2351/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/drake-80d011/2351/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/drake-ca8205/2351/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/drake-1d9013/2351/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/drake-40f192/2351/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/drake-6fd342/2351/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/drake-915735/2351/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/drake-7e9c74/2351/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/drake-6ee009/2351/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/drake-2f0d71/2351/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/drake-ede946/2351/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/drake-9d504e/2351/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/drake-2cd846/2351/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/drake-6f7a36/2351/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/drake-d348e8/2351/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/drake-31df3d/2351/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/drake-35a99f/2351/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/drake-97d814/2351/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/drake-bbe912/2351/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/drake-956e60/2351/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/drake-6f7a36/2351/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            },
+            {
+              "id": 456,
+              "name": "Rock",
+              "slug": "rock",
+              "primary": false,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/taylor-swift-95bfc1/35/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/taylor-swift-5aed70/35/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/taylor-swift-ea1e7e/35/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/taylor-swift-23f9f5/35/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/taylor-swift-1ad124/35/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/taylor-swift-397e97/35/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/taylor-swift-9e502b/35/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/taylor-swift-310144/35/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/taylor-swift-19e3f0/35/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/taylor-swift-92ebf3/35/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/taylor-swift-bab6e1/35/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1dbf4/35/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/taylor-swift-15afb9/35/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1e4b6/35/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/taylor-swift-3ebde5/35/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/taylor-swift-a807ae/35/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/taylor-swift-69d4a9/35/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/taylor-swift-5a3f01/35/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/taylor-swift-db2f1f/35/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/taylor-swift-c3abf8/35/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1e4b6/35/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            },
+            {
+              "id": 457,
+              "name": "Alternative",
+              "slug": "alternative",
+              "primary": false,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/noah-kahan-09d995/615350/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/noah-kahan-04d21f/615350/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/noah-kahan-79ddd1/615350/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/noah-kahan-b37677/615350/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/noah-kahan-c4d152/615350/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/noah-kahan-85f928/615350/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/noah-kahan-9977cf/615350/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/noah-kahan-e89102/615350/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/noah-kahan-810f70/615350/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/noah-kahan-834f2b/615350/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/noah-kahan-62e0dd/615350/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/noah-kahan-1c06ce/615350/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/noah-kahan-7bf706/615350/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/noah-kahan-933507/615350/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/noah-kahan-62bc02/615350/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/noah-kahan-3bccc3/615350/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/noah-kahan-82bed1/615350/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/noah-kahan-748f95/615350/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/noah-kahan-9ae98e/615350/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/noah-kahan-738624/615350/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/noah-kahan-933507/615350/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": "(c) Ethan Miller / Getty Images Entertainment / Getty Images"
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-25T19:00:00",
+      "time_tbd": false,
+      "short_title": "Boy George and Culture Club",
+      "visible_until_utc": "2023-07-26T03:00:00",
+      "stats": {
+        "listing_count": 15,
+        "average_price": 49,
+        "lowest_price_good_deals": 12,
+        "lowest_price": 12,
+        "highest_price": 152,
+        "visible_listing_count": 15,
+        "dq_bucket_counts": [5, 1, 0, 0, 1, 2, 5, 0],
+        "median_price": 42,
+        "lowest_sg_base_price": 3,
+        "lowest_sg_base_price_good_deals": 3
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 1
+        }
+      ],
+      "url": "https://seatgeek.com/boy-george-and-culture-club-tickets/mansfield-massachusetts-xfinity-center-ma-2-2023-07-25-7-pm/concert/6001220",
+      "score": 0.408,
+      "announce_date": "2023-04-18T00:00:00",
+      "created_at": "2023-04-18T17:04:35",
+      "date_tbd": false,
+      "title": "Boy George and Culture Club",
+      "popularity": 0.785,
+      "description": "",
+      "status": "normal",
+      "access_method": {
+        "method": "QRCODE_TM",
+        "created_at": "2015-07-21T00:00:00Z",
+        "employee_only": false
+      },
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T17:04:35Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5844433,
+      "datetime_utc": "2023-07-25T23:05:00",
+      "venue": {
+        "state": "NH",
+        "name_v2": "Northeast Delta Dental Stadium",
+        "postal_code": "03101",
+        "name": "Northeast Delta Dental Stadium",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/northeast-delta-dental-stadium-2/tickets",
+        "score": 0.48,
+        "location": {
+          "lat": 42.982,
+          "lon": -71.4666
+        },
+        "address": "1 Line Drive",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 24,
+        "city": "Manchester",
+        "slug": "northeast-delta-dental-stadium-2",
+        "extended_address": "Manchester, NH 03101",
+        "id": 5213,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 506,
+        "capacity": 0,
+        "display_location": "Manchester, NH"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "New Hampshire Fisher Cats",
+          "image": "https://seatgeek.com/images/performers-landscape/new-hampshire-fisher-cats-604706/9240/huge.jpg",
+          "id": 9240,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/new-hampshire-fisher-cats-604706/9240/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 48
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": null,
+          "url": "https://seatgeek.com/new-hampshire-fisher-cats-tickets",
+          "score": 0.37,
+          "slug": "new-hampshire-fisher-cats",
+          "home_venue_id": 5213,
+          "short_name": "New Hampshire Fisher Cats",
+          "num_upcoming_events": 48,
+          "colors": null,
+          "image_license": null,
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 42.982,
+            "lon": -71.4666
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Hartford Yard Goats",
+          "image": "https://seatgeek.com/images/performers-landscape/hartford-yard-goats-ecdd8a/402232/huge.jpg",
+          "id": 402232,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/hartford-yard-goats-ecdd8a/402232/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 48
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "https://www.flickr.com/photos/iamagenious/2449932790/in/photolist-4JuxEw-eibGvy-6PnTLd-M755A-eb29ac-abj7ip-eb7n5J-eb7Xm7-8eQUJN-9wEdVz-oxFQ1S-6s9WoG-egDsuu-eaNGCi-egDsyY-8VfGxM-egDuZf-e9ejxc-s38z99-f3VCqj-4w8FMa-oxYH7C-anfp5X-eibGuQ-9WgQiT-8eQYcy-eaNGLR-bC3rpN-bVrYm1-a8sg8R-eaUjqE-eb3yxt-4vFqp-amrm9d-9wC5KC-eb9awj-oaRQzL-ei5Xvv-9RsPuh-9FNoEk-cHvhp-anfqbv-9XTeHY-cw1d3b-mLWsJd-bYTeJb-6Po5nN-anifB3-c7NwXu-eibGn5",
+          "url": "https://seatgeek.com/hartford-yard-goats-tickets",
+          "score": 0.43,
+          "slug": "hartford-yard-goats",
+          "home_venue_id": 216869,
+          "short_name": "Hartford Yard Goats",
+          "num_upcoming_events": 48,
+          "colors": null,
+          "image_license": "https://creativecommons.org/licenses/by/2.0/",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 41.7714,
+            "lon": -72.6745
+          },
+          "image_rights_message": "[This image](https://www.flickr.com/photos/iamagenious/2449932790/in/photolist-4JuxEw-eibGvy-6PnTLd-M755A-eb29ac-abj7ip-eb7n5J-eb7Xm7-8eQUJN-9wEdVz-oxFQ1S-6s9WoG-egDsuu-eaNGCi-egDsyY-8VfGxM-egDuZf-e9ejxc-s38z99-f3VCqj-4w8FMa-oxYH7C-anfp5X-eibGuQ-9WgQiT-8eQYcy-eaNGLR-bC3rpN-bVrYm1-a8sg8R-eaUjqE-eb3yxt-4vFqp-amrm9d-9wC5KC-eb9awj-oaRQzL-ei5Xvv-9RsPuh-9FNoEk-cHvhp-anfqbv-9XTeHY-cw1d3b-mLWsJd-bYTeJb-6Po5nN-anifB3-c7NwXu-eibGn5) is available through [Creative Commons](https://creativecommons.org/licenses/by/2.0/) (@iamagenious - Flickr) and has been modified from the original. Email [images@seatgeek.com](mailto:images@seatgeek.com) with any questions."
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-25T19:05:00",
+      "time_tbd": false,
+      "short_title": "Hartford Yard Goats at New Hampshire Fisher Cats",
+      "visible_until_utc": "2023-07-26T03:05:00",
+      "stats": {
+        "listing_count": 13,
+        "average_price": 30,
+        "lowest_price_good_deals": null,
+        "lowest_price": 12,
+        "highest_price": 54,
+        "visible_listing_count": 13,
+        "dq_bucket_counts": [0, 0, 0, 0, 0, 0, 0, 0],
+        "median_price": 20,
+        "lowest_sg_base_price": 3,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/hartford-yard-goats-at-new-hampshire-fisher-cats-tickets/minor-league-baseball/2023-07-25-7-05-pm/5844433",
+      "score": 0.302,
+      "announce_date": "2022-10-14T00:00:00",
+      "created_at": "2022-10-14T16:01:33",
+      "date_tbd": false,
+      "title": "Hartford Yard Goats at New Hampshire Fisher Cats",
+      "popularity": 0.733,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:49:35Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "mlb",
+      "id": 5786142,
+      "datetime_utc": "2023-07-25T23:10:00",
+      "venue": {
+        "state": "MA",
+        "name_v2": "Fenway Park",
+        "postal_code": "02215",
+        "name": "Fenway Park",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/fenway-park/tickets",
+        "score": 0.91,
+        "location": {
+          "lat": 42.3456,
+          "lon": -71.0983
+        },
+        "address": "4 Yawkey Way",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 39,
+        "city": "Boston",
+        "slug": "fenway-park",
+        "extended_address": "Boston, MA 02215",
+        "id": 21,
+        "popularity": 0,
+        "access_method": {
+          "method": "QRCODE",
+          "created_at": "2023-03-15T14:56:45Z",
+          "employee_only": false
+        },
+        "metro_code": 506,
+        "capacity": 37400,
+        "display_location": "Boston, MA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "mlb",
+          "name": "Boston Red Sox",
+          "image": "https://seatgeek.com/images/matchup/v2_31343/21/2/huge.jpg",
+          "id": 21,
+          "images": {
+            "huge": "https://seatgeek.com/images/matchup/v2_31343/21/2/huge.jpg"
+          },
+          "divisions": [
+            {
+              "taxonomy_id": 1010100,
+              "short_name": null,
+              "display_name": "American League",
+              "display_type": "League",
+              "division_level": 1,
+              "slug": null
+            },
+            {
+              "taxonomy_id": 1010100,
+              "short_name": "AL East",
+              "display_name": "American League East",
+              "display_type": "Division",
+              "division_level": 2,
+              "slug": "american-league-east"
+            }
+          ],
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 62
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010100,
+              "name": "mlb",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 2
+            }
+          ],
+          "image_attribution": null,
+          "url": "https://seatgeek.com/boston-red-sox-tickets",
+          "score": 0.71,
+          "slug": "boston-red-sox",
+          "home_venue_id": 21,
+          "short_name": "Red Sox",
+          "num_upcoming_events": 62,
+          "colors": {
+            "all": ["#0D2B56", "#BD3039", "#0D2B56"],
+            "iconic": "#BD3039",
+            "primary": ["#0D2B56", "#BD3039"]
+          },
+          "image_license": null,
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 42.3456,
+            "lon": -71.0983
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "mlb",
+          "name": "Atlanta Braves",
+          "image": "https://seatgeek.com/images/performers-landscape/atlanta-braves-457f52/2/huge.jpg",
+          "id": 2,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/atlanta-braves-457f52/2/huge.jpg"
+          },
+          "divisions": [
+            {
+              "taxonomy_id": 1010100,
+              "short_name": null,
+              "display_name": "National League",
+              "display_type": "League",
+              "division_level": 1,
+              "slug": null
+            },
+            {
+              "taxonomy_id": 1010100,
+              "short_name": "NL East",
+              "display_name": "National League East",
+              "display_type": "Division",
+              "division_level": 2,
+              "slug": "national-league-east"
+            }
+          ],
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 64
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010100,
+              "name": "mlb",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 2
+            }
+          ],
+          "image_attribution": "club provided - 2023",
+          "url": "https://seatgeek.com/atlanta-braves-tickets",
+          "score": 0.71,
+          "slug": "atlanta-braves",
+          "home_venue_id": 418889,
+          "short_name": "Braves",
+          "num_upcoming_events": 64,
+          "colors": {
+            "all": ["#0C2340", "#BA0C2F", "#0C2340"],
+            "iconic": "#0C2340",
+            "primary": ["#0C2340", "#BA0C2F"]
+          },
+          "image_license": "club provided - 2023",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 33.8897,
+            "lon": -84.4654
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-25T19:10:00",
+      "time_tbd": false,
+      "short_title": "Braves at Red Sox",
+      "visible_until_utc": "2023-07-26T03:10:00",
+      "stats": {
+        "listing_count": 82,
+        "average_price": 1547,
+        "lowest_price_good_deals": 45,
+        "lowest_price": 45,
+        "highest_price": 117005,
+        "visible_listing_count": 82,
+        "dq_bucket_counts": [28, 16, 4, 3, 3, 2, 24, 0],
+        "median_price": 109,
+        "lowest_sg_base_price": 30,
+        "lowest_sg_base_price_good_deals": 30
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010100,
+          "name": "mlb",
+          "parent_id": 1010000,
+          "rank": 2
+        }
+      ],
+      "url": "https://seatgeek.com/braves-at-red-sox-tickets/7-25-2023-boston-massachusetts-fenway-park/mlb/5786142",
+      "score": 0.779,
+      "announce_date": "2022-08-24T00:00:00",
+      "created_at": "2022-08-24T18:07:50",
+      "date_tbd": false,
+      "title": "Atlanta Braves at Boston Red Sox",
+      "popularity": 0.965,
+      "description": "",
+      "status": "normal",
+      "access_method": {
+        "method": "QRCODE",
+        "created_at": "2023-03-15T14:56:45Z",
+        "employee_only": false
+      },
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:44:41Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 5942991,
+      "datetime_utc": "2023-07-25T23:30:00",
+      "venue": {
+        "state": "MA",
+        "name_v2": "Leader Bank Pavilion",
+        "postal_code": "02210",
+        "name": "Leader Bank Pavilion",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/leader-bank-pavilion/tickets",
+        "score": 0.75,
+        "location": {
+          "lat": 42.3485,
+          "lon": -71.0359
+        },
+        "address": "290 Northern Avenue",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 16,
+        "city": "Boston",
+        "slug": "leader-bank-pavilion",
+        "extended_address": "Boston, MA 02210",
+        "id": 4093,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 506,
+        "capacity": 0,
+        "display_location": "Boston, MA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Billy Strings",
+          "image": "https://seatgeek.com/images/performers-landscape/billy-strings-abab8e/299503/huge.jpg",
+          "id": 299503,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/billy-strings-abab8e/299503/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 37
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (Creative Project)",
+          "url": "https://seatgeek.com/billy-strings-tickets",
+          "score": 0.6,
+          "slug": "billy-strings",
+          "home_venue_id": null,
+          "short_name": "Billy Strings",
+          "num_upcoming_events": 37,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (Creative Project)",
+          "genres": [
+            {
+              "id": 467,
+              "name": "Folk",
+              "slug": "folk",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/morgan-wallen-a1654c/562860/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/morgan-wallen-46e002/562860/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/morgan-wallen-956f19/562860/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/morgan-wallen-070844/562860/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/morgan-wallen-022903/562860/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/morgan-wallen-3f8bce/562860/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/morgan-wallen-0eeb69/562860/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/morgan-wallen-56b55a/562860/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/morgan-wallen-0791ce/562860/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/morgan-wallen-07af49/562860/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/morgan-wallen-584042/562860/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/morgan-wallen-1f9898/562860/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/morgan-wallen-028473/562860/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/morgan-wallen-5805b8/562860/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/morgan-wallen-9189a1/562860/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/morgan-wallen-660ec9/562860/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/morgan-wallen-db46ca/562860/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/morgan-wallen-09a968/562860/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/morgan-wallen-084bb5/562860/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/morgan-wallen-e49624/562860/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/morgan-wallen-5805b8/562860/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-25T19:30:00",
+      "time_tbd": false,
+      "short_title": "Billy Strings",
+      "visible_until_utc": "2023-07-26T03:30:00",
+      "stats": {
+        "listing_count": 2,
+        "average_price": 115,
+        "lowest_price_good_deals": 78,
+        "lowest_price": 78,
+        "highest_price": 151,
+        "visible_listing_count": 2,
+        "dq_bucket_counts": [1, 1, 0, 0, 0, 1, 1, 0],
+        "median_price": 89,
+        "lowest_sg_base_price": 53,
+        "lowest_sg_base_price_good_deals": 53
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 1
+        }
+      ],
+      "url": "https://seatgeek.com/billy-strings-tickets/boston-massachusetts-leader-bank-pavilion-2023-07-25-7-30-pm/concert/5942991",
+      "score": 0.522,
+      "announce_date": "2023-02-13T00:00:00",
+      "created_at": "2023-02-13T16:00:25",
+      "date_tbd": false,
+      "title": "Billy Strings",
+      "popularity": 0.84,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T01:04:43Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "theater",
+      "id": 5860665,
+      "datetime_utc": "2023-07-25T23:30:00",
+      "venue": {
+        "state": "MA",
+        "name_v2": "Charles Playhouse",
+        "postal_code": "02116",
+        "name": "Charles Playhouse",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/charles-playhouse/tickets",
+        "score": 0.65,
+        "location": {
+          "lat": 42.3503,
+          "lon": -71.066
+        },
+        "address": "74 Warrenton Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 280,
+        "city": "Boston",
+        "slug": "charles-playhouse",
+        "extended_address": "Boston, MA 02116",
+        "id": 3188,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 506,
+        "capacity": 0,
+        "display_location": "Boston, MA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "theater",
+          "name": "Blue Man Group",
+          "image": "https://seatgeek.com/images/performers-landscape/blue-man-group-a0a948/5194/huge.jpg",
+          "id": 5194,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/blue-man-group-a0a948/5194/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 1494
+          },
+          "taxonomies": [
+            {
+              "id": 3000000,
+              "name": "theater",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 4
+            }
+          ],
+          "image_attribution": "Suzanne Cordeiro / Corbis Entertainment / Getty Images",
+          "url": "https://seatgeek.com/blue-man-group-tickets",
+          "score": 0.4,
+          "slug": "blue-man-group",
+          "home_venue_id": null,
+          "short_name": "Blue Man Group",
+          "num_upcoming_events": 1494,
+          "colors": null,
+          "image_license": "rightsmanaged",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": "(c) Suzanne Cordeiro / Corbis Entertainment / Getty Images"
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-25T19:30:00",
+      "time_tbd": false,
+      "short_title": "Blue Man Group - Boston",
+      "visible_until_utc": "2023-07-26T03:30:00",
+      "stats": {
+        "listing_count": 26,
+        "average_price": 227,
+        "lowest_price_good_deals": 124,
+        "lowest_price": 124,
+        "highest_price": 336,
+        "visible_listing_count": 25,
+        "dq_bucket_counts": [0, 12, 2, 5, 1, 2, 3, 0],
+        "median_price": 241,
+        "lowest_sg_base_price": 89,
+        "lowest_sg_base_price_good_deals": 89
+      },
+      "taxonomies": [
+        {
+          "id": 3000000,
+          "name": "theater",
+          "parent_id": null,
+          "rank": 4
+        }
+      ],
+      "url": "https://seatgeek.com/blue-man-group-boston-tickets/theater/2023-07-25-7-30-pm/5860665",
+      "score": 0.315,
+      "announce_date": "2022-11-02T00:00:00",
+      "created_at": "2022-11-02T16:01:55",
+      "date_tbd": false,
+      "title": "Blue Man Group - Boston",
+      "popularity": 0.74,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:51:22Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5855893,
+      "datetime_utc": "2023-07-26T15:15:00",
+      "venue": {
+        "state": "MA",
+        "name_v2": "Polar Park",
+        "postal_code": "01610",
+        "name": "Polar Park",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/polar-park/tickets",
+        "score": 0.37,
+        "location": {
+          "lat": 42.2584,
+          "lon": -71.8034
+        },
+        "address": "122 Madison Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 31,
+        "city": "Worcester",
+        "slug": "polar-park",
+        "extended_address": "Worcester, MA 01610",
+        "id": 518759,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 506,
+        "capacity": 0,
+        "display_location": "Worcester, MA"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Worcester Red Sox",
+          "image": "https://seatgeek.com/images/performers-landscape/worcester-red-sox-2893da/9249/huge.jpg",
+          "id": 9249,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/worcester-red-sox-2893da/9249/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 54
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022",
+          "url": "https://seatgeek.com/worcester-red-sox-tickets",
+          "score": 0.37,
+          "slug": "worcester-red-sox",
+          "home_venue_id": 518759,
+          "short_name": "Pawtucket Red Sox",
+          "num_upcoming_events": 54,
+          "colors": null,
+          "image_license": "SeatGeek - 2022",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 42.2584,
+            "lon": -71.8034
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Rochester Red Wings",
+          "image": "https://seatgeek.com/images/performers-landscape/rochester-red-wings-5f3e43/9269/huge.jpg",
+          "id": 9269,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/rochester-red-wings-5f3e43/9269/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 54
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022",
+          "url": "https://seatgeek.com/rochester-red-wings-tickets",
+          "score": 0.35,
+          "slug": "rochester-red-wings",
+          "home_venue_id": 4298,
+          "short_name": "Rochester Red Wings",
+          "num_upcoming_events": 54,
+          "colors": null,
+          "image_license": "SeatGeek - 2022",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 43.1584,
+            "lon": -77.6203
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-26T11:15:00",
+      "time_tbd": false,
+      "short_title": "Rochester Red Wings at Worcester Red Sox",
+      "visible_until_utc": "2023-07-26T19:15:00",
+      "stats": {
+        "listing_count": 59,
+        "average_price": 61,
+        "lowest_price_good_deals": null,
+        "lowest_price": 23,
+        "highest_price": 319,
+        "visible_listing_count": 59,
+        "dq_bucket_counts": [0, 0, 0, 0, 0, 0, 0, 0],
+        "median_price": 41,
+        "lowest_sg_base_price": 12,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/rochester-red-wings-at-worcester-red-sox-tickets/minor-league-baseball/2023-07-26-11-15-am/5855893",
+      "score": 0.316,
+      "announce_date": "2022-10-28T00:00:00",
+      "created_at": "2022-10-28T16:00:20",
+      "date_tbd": false,
+      "title": "Rochester Red Wings at Worcester Red Sox",
+      "popularity": 0.705,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:50:59Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5844432,
+      "datetime_utc": "2023-07-26T16:05:00",
+      "venue": {
+        "state": "NH",
+        "name_v2": "Northeast Delta Dental Stadium",
+        "postal_code": "03101",
+        "name": "Northeast Delta Dental Stadium",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/northeast-delta-dental-stadium-2/tickets",
+        "score": 0.48,
+        "location": {
+          "lat": 42.982,
+          "lon": -71.4666
+        },
+        "address": "1 Line Drive",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 24,
+        "city": "Manchester",
+        "slug": "northeast-delta-dental-stadium-2",
+        "extended_address": "Manchester, NH 03101",
+        "id": 5213,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 506,
+        "capacity": 0,
+        "display_location": "Manchester, NH"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "New Hampshire Fisher Cats",
+          "image": "https://seatgeek.com/images/performers-landscape/new-hampshire-fisher-cats-604706/9240/huge.jpg",
+          "id": 9240,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/new-hampshire-fisher-cats-604706/9240/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 48
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": null,
+          "url": "https://seatgeek.com/new-hampshire-fisher-cats-tickets",
+          "score": 0.37,
+          "slug": "new-hampshire-fisher-cats",
+          "home_venue_id": 5213,
+          "short_name": "New Hampshire Fisher Cats",
+          "num_upcoming_events": 48,
+          "colors": null,
+          "image_license": null,
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 42.982,
+            "lon": -71.4666
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Hartford Yard Goats",
+          "image": "https://seatgeek.com/images/performers-landscape/hartford-yard-goats-ecdd8a/402232/huge.jpg",
+          "id": 402232,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/hartford-yard-goats-ecdd8a/402232/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 48
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "https://www.flickr.com/photos/iamagenious/2449932790/in/photolist-4JuxEw-eibGvy-6PnTLd-M755A-eb29ac-abj7ip-eb7n5J-eb7Xm7-8eQUJN-9wEdVz-oxFQ1S-6s9WoG-egDsuu-eaNGCi-egDsyY-8VfGxM-egDuZf-e9ejxc-s38z99-f3VCqj-4w8FMa-oxYH7C-anfp5X-eibGuQ-9WgQiT-8eQYcy-eaNGLR-bC3rpN-bVrYm1-a8sg8R-eaUjqE-eb3yxt-4vFqp-amrm9d-9wC5KC-eb9awj-oaRQzL-ei5Xvv-9RsPuh-9FNoEk-cHvhp-anfqbv-9XTeHY-cw1d3b-mLWsJd-bYTeJb-6Po5nN-anifB3-c7NwXu-eibGn5",
+          "url": "https://seatgeek.com/hartford-yard-goats-tickets",
+          "score": 0.43,
+          "slug": "hartford-yard-goats",
+          "home_venue_id": 216869,
+          "short_name": "Hartford Yard Goats",
+          "num_upcoming_events": 48,
+          "colors": null,
+          "image_license": "https://creativecommons.org/licenses/by/2.0/",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 41.7714,
+            "lon": -72.6745
+          },
+          "image_rights_message": "[This image](https://www.flickr.com/photos/iamagenious/2449932790/in/photolist-4JuxEw-eibGvy-6PnTLd-M755A-eb29ac-abj7ip-eb7n5J-eb7Xm7-8eQUJN-9wEdVz-oxFQ1S-6s9WoG-egDsuu-eaNGCi-egDsyY-8VfGxM-egDuZf-e9ejxc-s38z99-f3VCqj-4w8FMa-oxYH7C-anfp5X-eibGuQ-9WgQiT-8eQYcy-eaNGLR-bC3rpN-bVrYm1-a8sg8R-eaUjqE-eb3yxt-4vFqp-amrm9d-9wC5KC-eb9awj-oaRQzL-ei5Xvv-9RsPuh-9FNoEk-cHvhp-anfqbv-9XTeHY-cw1d3b-mLWsJd-bYTeJb-6Po5nN-anifB3-c7NwXu-eibGn5) is available through [Creative Commons](https://creativecommons.org/licenses/by/2.0/) (@iamagenious - Flickr) and has been modified from the original. Email [images@seatgeek.com](mailto:images@seatgeek.com) with any questions."
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-26T12:05:00",
+      "time_tbd": false,
+      "short_title": "Hartford Yard Goats at New Hampshire Fisher Cats",
+      "visible_until_utc": "2023-07-26T20:05:00",
+      "stats": {
+        "listing_count": 22,
+        "average_price": 29,
+        "lowest_price_good_deals": null,
+        "lowest_price": 15,
+        "highest_price": 54,
+        "visible_listing_count": 22,
+        "dq_bucket_counts": [0, 0, 0, 0, 0, 0, 0, 0],
+        "median_price": 23,
+        "lowest_sg_base_price": 6,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/hartford-yard-goats-at-new-hampshire-fisher-cats-tickets/minor-league-baseball/2023-07-26-12-05-pm/5844432",
+      "score": 0.299,
+      "announce_date": "2022-10-14T00:00:00",
+      "created_at": "2022-10-14T16:01:33",
+      "date_tbd": false,
+      "title": "Hartford Yard Goats at New Hampshire Fisher Cats",
+      "popularity": 0.696,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:49:35Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    }
+  ],
+  "meta": {
+    "total": 1956,
+    "took": 25,
+    "page": 1,
+    "per_page": 10,
+    "geolocation": {
+      "lat": 42.3731,
+      "lon": -71.0162,
+      "city": "Boston",
+      "state": "MA",
+      "country": "US",
+      "postal_code": "02128",
+      "display_name": "Boston, MA",
+      "metro_code": "506",
+      "range": "50mi"
+    }
+  }
+}

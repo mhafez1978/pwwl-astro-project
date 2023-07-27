@@ -1,0 +1,120 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!-- Navbar Start -->
+<div class="container-fluid nav-bar bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark p-3 py-lg-0 px-lg-4">
+    <a
+      href="/"
+      class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none"
+    >
+      <h1 style="font-size:1.2rem;" class="text-white m-0">
+        Prestige Worldwide Limos
+      </h1>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+    >
+      <span class="fa fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav me-auto">
+        <a
+          href="/"
+          class={title === "Home"
+            ? "nav-item nav-link"
+            : "nav-item nav-link active"}>Home</a
+        >
+        <a
+          href="/services"
+          class={title === "Services"
+            ? "nav-item nav-link"
+            : "nav-item nav-link active"}>Services</a
+        >
+        <a
+          href="/reviews"
+          class={title === "Reviews"
+            ? "nav-item nav-link"
+            : "nav-item nav-link active"}>Reviews</a
+        >
+        <!-- <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+            >Pages</a
+          >
+          <div class="dropdown-menu fade-up m-0">
+            <a href="/" class="dropdown-item">Latest News</a>
+            <a href="/" class="dropdown-item">Reviews</a>
+            <a href="/" class="dropdown-item">Testimonial</a>
+            <a href="/" class="dropdown-item">404 Page</a>
+          </div>
+        </div> -->
+        <a
+          href="/events"
+          class={title === "Latest News"
+            ? "nav-item nav-link"
+            : "nav-item nav-link active"}>Events</a
+        >
+        <a
+          href="/reserve"
+          class={title === "Reserve"
+            ? "nav-item nav-link"
+            : "nav-item nav-link active"}>Reservations</a
+        >
+        <a
+          href="/contact"
+          class={title === "Contact"
+            ? "nav-item nav-link"
+            : "nav-item nav-link active"}>Contact</a
+        >
+      </div>
+      <div
+        class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center"
+      >
+        <div
+          class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+          style="width: 45px; height: 45px;"
+        >
+          <i class="fa fa-phone-alt text-primary"></i>
+        </div>
+        <div class="ms-3">
+          <p class="mb-1 text-white">Have Questions ?</p>
+          <h5 class="m-0 text-white">
+            <a class="text-white" rel="tel" href="tel:19803910979"
+              >+1 980-391-0979</a
+            >
+          </h5>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- Navbar End -->
+<style>
+  .nav-link {
+    font-size: 0.995rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ff4917 !important;
+  }
+  .active {
+    color: #fff !important;
+  }
+
+  .nav-link:hover {
+    color: #fff !important;
+  }
+
+  .fa,
+  .far,
+  .fas {
+    color: #fff;
+  }
+</style>
