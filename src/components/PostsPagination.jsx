@@ -69,7 +69,6 @@ const PostList = () => {
                     style={{
                       objectFit: "cover",
                       height: "200px",
-                      //   position: "relative",
                     }}
                     src="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg"
                     alt={post.title.rendered}
