@@ -2,7 +2,8 @@
 import LandingLayout from "../layouts/LandingLayout.astro";
 import Spinner from "../components/Spinner.astro";
 import ToTop from "../components/ToTop.astro";
-import CharlotteEventsRadius from "../components/CharlotteEventsRadius";
+// import CharlotteEventsRadius from "../components/CharlotteEventsRadius";
+import EventsPagination from "../components/EventsPagination";
 
 interface Props {
   pageTitle: string;
@@ -18,8 +19,37 @@ const { pageTitle } = Astro.props;
     style="margin-top:100px; min-height:100vh;z-index:-1;"
   >
     <div style="width:86vw;margin:0 auto;">
-      <CharlotteEventsRadius client:load />
+      <div
+        style="display:flex;flex-direction:column;justify-content: center;align-items: center; margin-bottom: 40px;"
+      >
+        <h1 style="color:#FF4917">Your Local Events</h1>
+        <p style="font-size: 14px;">
+          Not sure where to go to, below we curated a list of all local events
+          around you.
+        </p>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb text-uppercase">
+            <li class="breadcrumb-item">
+              <a class="text-black" href="/">Home</a>
+            </li>
+            <li class="breadcrumb-item text-black active" aria-current="page">
+              Events
+            </li>
+          </ol>
+        </nav>
+      </div>
+      <!-- <CharlotteEventsRadius client:load /> -->
+      <EventsPagination client:load />
     </div>
   </div>
   <ToTop />
 </LandingLayout>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+  h1 {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-size: 90px;
+  }
+</style>

@@ -1,7 +1,7 @@
 ---
 import Spinner from "../components/Spinner.astro";
 import ToTop from "../components/ToTop.astro";
-import CharlotteEvents from "../components/CharlotteEvents";
+import PostList from "../components/PostsPagination";
 import LandingLayout from "../layouts/LandingLayout.astro";
 
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
 const { pageTitle } = Astro.props;
 ---
 
-<LandingLayout pageTitle="Charlotte Events">
+<LandingLayout pageTitle="Latest News">
   <Spinner />
   <div class="container-fluid" style="margin-top:40px; min-height:100vh;">
     <div style="margin:20px auto;">
@@ -25,11 +25,7 @@ const { pageTitle } = Astro.props;
         text-align:justify;
         "
       >
-        <center>
-          <h1>Happening Near You.</h1>
-          <br />
-        </center>
-        <CharlotteEvents client:load />
+        <PostList client:load />
       </div>
     </div>
   </div>

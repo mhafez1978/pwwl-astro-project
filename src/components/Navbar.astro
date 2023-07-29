@@ -58,13 +58,19 @@ const { title } = Astro.props;
         </div> -->
         <a
           href="/events"
-          class={title === "Latest News"
+          class={title === "Events"
             ? "nav-item nav-link"
             : "nav-item nav-link active"}>Events</a
         >
         <a
+          href="/latest-news"
+          class={title === "Latest News"
+            ? "nav-item nav-link"
+            : "nav-item nav-link active"}>Latest News</a
+        >
+        <a
           href="/reserve"
-          class={title === "Reserve"
+          class={title === "Reservations"
             ? "nav-item nav-link"
             : "nav-item nav-link active"}>Reservations</a
         >
