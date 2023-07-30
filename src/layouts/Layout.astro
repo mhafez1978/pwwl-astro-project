@@ -1,45 +1,99 @@
 ---
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
+import Topbar from "../components/Topbar.astro";
+
 import dotenv from "dotenv"; // Import the dotenv library
 // Load environment variables from .env
 dotenv.config();
 
 interface Props {
-  title: string;
+  pageTitle?: string;
+  pageDescription?: string;
+  pageKeywords?: string;
 }
 
-const { title } = Astro.props;
+const { pageTitle, pageDescription, pageKeywords } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <meta charset="utf-8" />
+    <title>PWWL | {pageTitle}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content={pageKeywords} name="keywords" />
+    <meta content={pageDescription} name="description" />
+
+    <!-- Favicon -->
+    <link href="/favicon.svg" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="/assets/lib/animate/animate.min.css" rel="stylesheet" />
+    <link
+      href="/assets/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="/assets/css/style.css" rel="stylesheet" />
   </head>
+
   <body>
+    <Topbar />
+    <Navbar title={pageTitle} />
     <slot />
+
+    <Footer />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" is:inline
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      is:inline></script>
+    <script src="/assets/lib/wow/wow.min.js" is:inline></script>
+    <script src="/assets/lib/easing/easing.min.js" is:inline></script>
+    <script src="/assets/lib/waypoints/waypoints.min.js" is:inline></script>
+    <script src="/assets/lib/counterup/counterup.min.js" is:inline></script>
+    <script src="/assets/lib/owlcarousel/owl.carousel.min.js" is:inline
+    ></script>
+    <script src="/assets/lib/tempusdominus/js/moment.min.js" is:inline></script>
+    <script src="/assets/lib/tempusdominus/js/moment-timezone.min.js" is:inline
+    ></script>
+    <script
+      src="/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"
+      is:inline></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous"
+      async></script>
+    <!-- Template Javascript -->
+    <script src="/assets/js/main.js" is:inline></script>
   </body>
 </html>
-<style is:global>
-  :root {
-    --accent: 124, 58, 237;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      #da62c4 30%,
-      white 60%
-    );
-  }
-  html {
-    font-family: system-ui, sans-serif;
-    background-color: #f6f6f6;
-  }
-  code {
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-  }
-</style>

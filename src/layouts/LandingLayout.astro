@@ -3,6 +3,10 @@ import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 import Topbar from "../components/Topbar.astro";
 
+import dotenv from "dotenv"; // Import the dotenv library
+// Load environment variables from .env
+dotenv.config();
+
 interface Props {
   pageTitle?: string;
   pageDescription?: string;

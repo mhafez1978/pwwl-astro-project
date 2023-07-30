@@ -327,7 +327,7 @@ const PostList = () => {
                       />
                       <p style={{ fontSize: "12px" }}>
                         Author: {getAuthorUsername(post.author)} <br />
-                        <a href={post.link}>Read the article...</a>
+                        <a href={`/posts/${post.id}`}>Read the article...</a>
                       </p>
                     </div>
                   </div>

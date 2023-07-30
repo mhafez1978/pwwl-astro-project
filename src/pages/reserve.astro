@@ -5,6 +5,7 @@ import ToTop from "../components/ToTop.astro";
 import Topbar from "../components/Topbar.astro";
 import Navbar from "../components/Navbar.astro";
 import Services3 from "../components/Service3.astro";
+import ContactForm from "../components/ContactForrm";
 // interface Props {
 //   pageTitle: string;
 // }
@@ -34,6 +35,17 @@ import Services3 from "../components/Service3.astro";
     </div>
   </div>
   <!-- Page Header End -->
+  <div class="container">
+    <h3>Make A Reservation</h3>
+    <p>
+      For a more accurate quote. Please fill all the required information below.
+      We will contact you shortly when we receieve your message.
+    </p>
+    <br />
+    <hr />
+    <br />
+    <ContactForm client:load />
+  </div>
 
   <ToTop />
 </LandingLayout>

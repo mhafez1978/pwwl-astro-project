@@ -1,16 +1,9 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-// import secret from "../env.json";
-
-// window.SERVICEID = process.env.SERVICEID;
-// window.TEMPLATEID = process.env.TEMPLATEID;
-// window.PUBLICKEY = process.env.PUBLICKEY;
-// window.PRIVATETOKEN = process.env.PRIVATETOKEN;
-
-const serviceId = import.meta.env.PUBLIC_SERVICEID;
-const templateId = import.meta.env.PUBLIC_TEMPLATEID;
-const publicKey = import.meta.env.PUBLIC_PUBLICKEY;
+const serviceId = import.meta.env.PUBLIC_SERVICEID2;
+const templateId = import.meta.env.PUBLIC_TEMPLATEID3;
+const publicKey = import.meta.env.PUBLIC_PUBLICKEY2;
 
 export const ContactForm = () => {
   const [customer_name, setCustomerName] = useState("");
@@ -20,7 +13,8 @@ export const ContactForm = () => {
   const [service_date, setServiceDate] = useState("");
   const [service_time, setServiceTime] = useState("");
   const [customer_message, setCustomerMessage] = useState("");
-
+  const [passengerNumber, setPassengerNumber] = useState("");
+  const [luggageNumber, setLuggageNumber] = useState("");
   const [successMessageStatus, setSuccessMessageStatus] = useState("d-none");
   const [errorMessageStatus, setErrorMessageStatus] = useState("d-none");
 
@@ -62,6 +56,7 @@ export const ContactForm = () => {
         <div className="row g-3">
           <div className="col-12 col-sm-6">
             <input
+              required
               name="customer_name"
               type="text"
               className="form-control border-1"
@@ -74,6 +69,7 @@ export const ContactForm = () => {
           </div>
           <div className="col-12 col-sm-6">
             <input
+              required
               name="customer_email"
               type="email"
               className="form-control border-1"
@@ -91,6 +87,7 @@ export const ContactForm = () => {
               data-target-input="nearest"
             >
               <input
+                required
                 name="customer_phone"
                 type="text"
                 className="form-control border-1"
@@ -105,6 +102,7 @@ export const ContactForm = () => {
           </div>
           <div className="col-12 col-sm-6">
             <select
+              required
               id="serviceRequested"
               name="service_requested"
               className="form-select border-1"
@@ -139,6 +137,7 @@ export const ContactForm = () => {
           <div className="col-12 col-sm-6">
             <div className="date" id="serviceDate" data-target-input="nearest">
               <input
+                required
                 name="service_date"
                 type="text"
                 className="form-control border-1 datetimepicker-input"
@@ -158,6 +157,7 @@ export const ContactForm = () => {
             data-target-input="nearest"
           >
             <select
+              required
               name="service_time"
               className="form-select border-1"
               style={{ height: "55px" }}
@@ -241,6 +241,34 @@ export const ContactForm = () => {
               </option>
             </select>
           </div>
+
+          <div className="col-12 col-sm-6">
+            <input
+              name="passengerNumber"
+              type="text"
+              className="form-control border-1"
+              placeholder="Number of passengers"
+              defaultValue={1}
+              style={{ height: "55px" }}
+              onChange={(e) => {
+                setPassengerNumber(e.target.value);
+              }}
+            />
+          </div>
+          <div className="col-12 col-sm-6">
+            <input
+              name="luggageNumber"
+              type="text"
+              className="form-control border-1"
+              placeholder="Number of Luggage"
+              defaultValue={0}
+              style={{ height: "55px" }}
+              onChange={(e) => {
+                setLuggageNumber(e.target.value);
+              }}
+            />
+          </div>
+
           <div className="col-12">
             <textarea
               id="customerMessage"

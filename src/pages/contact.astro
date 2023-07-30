@@ -61,17 +61,26 @@ import ContactForm from "../components/ContactForrm";
   <div class="container mx-auto">
     <div class="row">
       <div class="col-lg-6">
-        <h3>Address</h3>
-        <address style="display:flex; flex-direction:column;">
-          <span>1515 Spruce Lane</span>
-          <span>Denver, NC 28037</span>
-        </address>
-        <h3>Phone</h3>
-        <p>+1 980 391 0979</p>
+        <img
+          src="https://prestigeworldwidelimos.com/carolina-limo-rentals/wp-content/uploads/2022/12/pwwl-dark-logo.png"
+          alt="logo"
+          width="200"
+          style="margin-bottom:40px;"
+        />
+        <div style="margin-left:30px;">
+          <h3>Address</h3>
+          <address style="display:flex; flex-direction:column;">
+            <span>1515 Spruce Lane</span>
+            <span>Denver, NC 28037</span>
+          </address>
+          <h3>Phone</h3>
+          <p>+1 980 391 0979</p>
+        </div>
       </div>
       <div class="col-lg-6">
         <h3>Contact us</h3>
-        <ContactForm />
+        <br />
+        <ContactForm client:load />
       </div>
     </div>
   </div>
