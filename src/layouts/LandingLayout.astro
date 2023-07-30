@@ -5,9 +5,11 @@ import Topbar from "../components/Topbar.astro";
 
 interface Props {
   pageTitle: string;
+  pageDescription: string;
+  pageKeywords: string;
 }
 
-const { pageTitle } = Astro.props;
+const { pageTitle, pageDescription, pageKeywords } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -16,8 +18,8 @@ const { pageTitle } = Astro.props;
     <meta charset="utf-8" />
     <title>PWWL | {pageTitle}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
+    <meta content={pageKeywords} name="keywords" />
+    <meta content={pageDescription} name="description" />
 
     <!-- Favicon -->
     <link href="/favicon.svg" rel="icon" />

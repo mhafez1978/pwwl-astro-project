@@ -1,39 +1,58 @@
 ---
+import LandingLayout from "../layouts/LandingLayout.astro";
 import Spinner from "../components/Spinner.astro";
 import ToTop from "../components/ToTop.astro";
-import PostList from "../components/PostsPagination";
-import LandingLayout from "../layouts/LandingLayout.astro";
+import PostsPagination from "../components/PostsPagination";
 
-interface Props {
-  pageTitle: string;
-}
+// interface Props {
+//   pageTitle: string;
+// }
 
-const { pageTitle } = Astro.props;
+// const { pageTitle } = Astro.props;
 ---
 
-<LandingLayout pageTitle="Latest News">
+<LandingLayout
+  pageTitle="Latest News"
+  pageDescription="Our Latest News"
+  pageKeywords="latest posts, pwwl blog"
+>
   <Spinner />
-  <div class="container-fluid" style="margin-top:40px; min-height:100vh;">
-    <div style="margin:20px auto;">
+  <div
+    class="container-fluid"
+    style="margin-top:100px; min-height:100vh;z-index:-1;"
+  >
+    <div style="width:86vw;margin:0 auto;">
       <div
-        style="
-        margin:4px, 4px;
-        padding:4px;
-        min-height: 100vh;
-        overflow-x: hidden;
-        overflow-y: auto;
-        text-align:justify;
-        "
+        style="display:flex;flex-direction:column;justify-content: center;align-items: center; margin-bottom: 40px;"
       >
-        <PostList client:load />
+        <h1 style="color:#FF4917">Your Latest News</h1>
+        <p style="font-size: 14px;">
+          <!-- Not sure where to go to, below we curated a list of all local events
+          around you. -->
+        </p>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb text-uppercase">
+            <li class="breadcrumb-item">
+              <a class="text-black" href="/">Home</a>
+            </li>
+            <li class="breadcrumb-item text-black active" aria-current="page">
+              Latest News
+            </li>
+          </ol>
+        </nav>
       </div>
+      <!-- <CharlotteEventsRadius client:load /> -->
+      <PostsPagination client:load />
     </div>
   </div>
   <ToTop />
 </LandingLayout>
 
 <style>
-  .card-header {
-    padding: 0 !important;
+  @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+  h1 {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-size: 90px;
   }
 </style>

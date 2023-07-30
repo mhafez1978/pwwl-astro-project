@@ -5,14 +5,18 @@ import ToTop from "../components/ToTop.astro";
 // import CharlotteEventsRadius from "../components/CharlotteEventsRadius";
 import EventsPagination from "../components/EventsPagination";
 
-interface Props {
-  pageTitle: string;
-}
+// interface Props {
+//   pageTitle: string;
+// }
 
-const { pageTitle } = Astro.props;
+// const { pageTitle } = Astro.props;
 ---
 
-<LandingLayout pageTitle="Charlotte Events">
+<LandingLayout
+  pageTitle="Charlotte Events"
+  pageDescription="charlotte events"
+  pageKeywords="charlotte events"
+>
   <Spinner />
   <div
     class="container-fluid"

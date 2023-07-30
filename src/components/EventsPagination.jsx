@@ -51,63 +51,60 @@ const EventList = () => {
           <>
             <div className="row">
               {currentEvents.map((each) => (
-                <a href={each.url} className="col-lg-4 mb-4" key={each.id}>
-                  <div
-                    className="card"
-                    style={{ minHeight: "400px", width: "20rem" }}
-                  >
-                    <img
-                      className="card-img-top"
-                      src={each.performers[0].image}
-                      alt={each.performers[0].short_name}
-                    />
-                    <div className="card-body">
-                      <h6
+                <div
+                  key={each.id}
+                  className="card"
+                  style={{ minHeight: "400px", width: "20rem" }}
+                >
+                  <img
+                    className="card-img-top"
+                    src={each.performers[0].image}
+                    alt={each.performers[0].short_name}
+                  />
+                  <div className="card-body">
+                    <h6
+                      style={{
+                        textTransform: "capitalize",
+                      }}
+                    >
+                      <span
                         style={{
                           textTransform: "capitalize",
+                          marginRight: "10px",
                         }}
                       >
-                        <span
-                          style={{
-                            textTransform: "capitalize",
-                            marginRight: "10px",
-                          }}
-                        >
-                          {each.performers[0].name} -
-                        </span>
-                        {each.taxonomies[0].name}
-                      </h6>
-                      <p
-                        style={{
-                          fontSize: "14px",
-                          display: "flex",
-                          flexDirection: "column",
-                          color: "#222",
-                        }}
+                        {each.performers[0].name} -
+                      </span>
+                      {each.taxonomies[0].name}
+                    </h6>
+                    <p
+                      style={{
+                        fontSize: "14px",
+                        display: "flex",
+                        flexDirection: "column",
+                        color: "#222",
+                      }}
+                    >
+                      <span>{formatDate(each.datetime_local)}</span>
+
+                      <span>{each.venue.address}</span>
+
+                      <span>{each.venue.extended_address}</span>
+
+                      <span style={{ fontSize: "10px", marginBottom: "20px" }}>
+                        {each.venue.slug}
+                      </span>
+
+                      <a
+                        className="btn btn-primary"
+                        href={each.url}
+                        target="_blank"
                       >
-                        <span>{formatDate(each.datetime_local)}</span>
-
-                        <span>{each.venue.address}</span>
-
-                        <span>{each.venue.extended_address}</span>
-
-                        <span
-                          style={{ fontSize: "10px", marginBottom: "20px" }}
-                        >
-                          {each.venue.slug}
-                        </span>
-
-                        <a
-                          className="btn btn-primary"
-                          href={each.url}
-                          target="_blank"
-                        >
-                          Buy Tickets
-                        </a>
-                      </p>
-                    </div>
+                        Buy Tickets
+                      </a>
+                    </p>
                   </div>
-                </a>
+                </div>
               ))}
             </div>
             {/* Pagination buttons */}
