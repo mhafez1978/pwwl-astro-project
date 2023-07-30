@@ -254,7 +254,7 @@ const PostList = () => {
 
   return (
     <>
-      <div className="container">
+      <div style={{ width: "60vw", margin: "0 auto" }}>
         <div className="row">
           {/* Only show the loading indicator if the posts are still loading */}
           {loadingPosts ? (
@@ -288,8 +288,8 @@ const PostList = () => {
                   <div
                     className="card d-flex flex-column"
                     style={{
-                      width: "20rem",
-                      height: "400px",
+                      width: "18rem",
+                      height: "460px",
                       borderRadius: "4px",
                       display: "flex",
                       flexDirection: "column",
@@ -309,24 +309,26 @@ const PostList = () => {
                       alt={post.title.rendered}
                     />
                     <div className="card-body">
-                      <p>{formattedDate}</p>
                       <p
                         style={{
-                          fontSize: "18px",
+                          fontSize: "16px",
                           paddingRight: "20px",
-                          wordWrap: "break-word",
+                          color: "#222",
                         }}
                       >
+                        {formattedDate} <br />
                         {post.title.rendered}
                       </p>
-                      {/* <p
-                        style={{ fontSize: "14px", color: "#222" }}
+                      <p
+                        style={{ fontSize: "12px", color: "#222" }}
                         dangerouslySetInnerHTML={{
                           __html: post.excerpt.rendered.substring(0, 80),
                         }}
                       />
-                      <p>Author: {getAuthorUsername(post.author)}</p> */}
-                      ... read the article ...
+                      <p style={{ fontSize: "12px" }}>
+                        Author: {getAuthorUsername(post.author)} <br />
+                        <a href={post.link}>Read the article...</a>
+                      </p>
                     </div>
                   </div>
                 </a>

@@ -46,15 +46,22 @@ const EventList = () => {
 
   return (
     <>
-      <div className="container">
+      <div style={{ width: "70vw", margin: "0 auto" }}>
         {currentEvents ? (
           <>
-            <div className="row">
+            <div className="row d-flex justify-content-center">
               {currentEvents.map((each) => (
                 <div
                   key={each.id}
                   className="card"
-                  style={{ minHeight: "400px", width: "20rem" }}
+                  style={{
+                    width: "18rem",
+                    minHeight: "400px",
+                    borderRadius: "4px",
+                    display: "flex",
+                    flexDirection: "column",
+                    margin: "10px",
+                  }}
                 >
                   <img
                     className="card-img-top"
