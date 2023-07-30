@@ -58,13 +58,13 @@ export const ContactForm = () => {
           <div></div>
         )}
       </div>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} className="border-1">
         <div className="row g-3">
           <div className="col-12 col-sm-6">
             <input
               name="customer_name"
               type="text"
-              className="form-control border-0"
+              className="form-control border-1"
               placeholder="Your Name"
               style={{ height: "55px" }}
               onChange={(e) => {
@@ -76,7 +76,7 @@ export const ContactForm = () => {
             <input
               name="customer_email"
               type="email"
-              className="form-control border-0"
+              className="form-control border-1"
               placeholder="Your Email"
               style={{ height: "55px" }}
               onChange={(e) => {
@@ -93,7 +93,7 @@ export const ContactForm = () => {
               <input
                 name="customer_phone"
                 type="text"
-                className="form-control border-0"
+                className="form-control border-1"
                 placeholder="Phone Number"
                 data-target="#customerPhone"
                 style={{ height: "55px" }}
@@ -107,7 +107,7 @@ export const ContactForm = () => {
             <select
               id="serviceRequested"
               name="service_requested"
-              className="form-select border-0"
+              className="form-select border-1"
               style={{ height: "55px" }}
               onChange={(e) => {
                 setServiceRequested(e.target.value);
@@ -141,7 +141,7 @@ export const ContactForm = () => {
               <input
                 name="service_date"
                 type="text"
-                className="form-control border-0 datetimepicker-input"
+                className="form-control border-1 datetimepicker-input"
                 placeholder="Service Date"
                 data-target="#serviceDate"
                 data-toggle="datetimepicker"
@@ -159,7 +159,7 @@ export const ContactForm = () => {
           >
             <select
               name="service_time"
-              className="form-select border-0"
+              className="form-select border-1"
               style={{ height: "55px" }}
               onChange={(e) => {
                 setServiceTime(e.target.value);
@@ -246,7 +246,7 @@ export const ContactForm = () => {
               id="customerMessage"
               data-target="#customerMessage"
               name="customer_message"
-              className="form-control border-0"
+              className="form-control border-1"
               style={{ height: "200px" }}
               placeholder="Please enter your starting address, destination address, and any special instructions or requests"
               onChange={(e) => {

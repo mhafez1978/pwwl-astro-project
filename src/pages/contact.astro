@@ -5,6 +5,7 @@ import ToTop from "../components/ToTop.astro";
 import Topbar from "../components/Topbar.astro";
 import Navbar from "../components/Navbar.astro";
 import Services3 from "../components/Service3.astro";
+import ContactForm from "../components/ContactForrm";
 
 // interface Props {
 //   pageTitle: string;
@@ -17,7 +18,7 @@ import Services3 from "../components/Service3.astro";
   <Spinner />
 
   <!-- Page Header Start -->
-  <div class="container-fluid page-header mb-5 py-5">
+  <!-- <div class="container-fluid page-header mb-5 py-5">
     <div class="container">
       <h1 class="display-3 text-white mb-3 animated slideInDown">Contact</h1>
       <nav aria-label="breadcrumb animated slideInDown">
@@ -31,8 +32,49 @@ import Services3 from "../components/Service3.astro";
         </ol>
       </nav>
     </div>
-  </div>
+  </div> -->
   <!-- Page Header End -->
+  <div
+    style="display:flex;position:relative;width:100vw;hight:400px;margin-bottom:80px"
+  >
+    <a
+      style="cursor:pointer"
+      data-url="/maps/place/1515+Spruce+Ln,+Denver,+NC+28037/data=!4m2!3m1!1s0x8856b1f5c0a69e85:0x7efcb7153ecd8fd?sa=X&ved=2ahUKEwi654XO8raAAxWukIkEHbEEAdkQ8gF6BAgTEAA"
+      href="#"
+      jsaction="trigger.Ez7VMc"
+      tabindex="0"
+      data-ved="2ahUKEwi654XO8raAAxWukIkEHbEEAdkQ8gF6BAgYEAI"
+      ><img
+        id="pimg_1"
+        src="https://www.google.com/maps/vt/data=2jM22eYoIeVAWSs9acvKcWy2zHNHWp8LUiQIeh8Sej0UYN-mI8rPaplfIlTBHrzkmBfy2QQgjHmIPTPgvcWCI_f1mVXzACVdFk9b1BTJGYH2x3LIxeFFMR91Dcj9dBLS--Jqngn-dES8_nNiGXz2SAiW8WNXILrwkR-GIEaBRpMhvZnFVBcfNt6wDfe3UWlyAaF-zagoKRuHYU_6JhY0LRoklhHZIk1GxgOkengyPsFdPobgmGsCkEO0cODgMVOsVQy1NEOU8817jjKpWxcwK22Y-GkVHBJleHZtFWhJ_KYsZsBhZVxmaKWETTPiM8qE9QqjwlzYk5yZZD-rsjylRBIexR-eUajay21X9hJvz3oyBLheypo"
+        class="YQ4gaf"
+        height="400"
+        width="600"
+        alt=""
+        data-atf="1"
+        data-frt="0"
+        style="object-fit:cover; width:100vw;"
+      />
+    </a>
+  </div>
+
+  <div class="container mx-auto">
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>Address</h3>
+        <address style="display:flex; flex-direction:column;">
+          <span>1515 Spruce Lane</span>
+          <span>Denver, NC 28037</span>
+        </address>
+        <h3>Phone</h3>
+        <p>+1 980 391 0979</p>
+      </div>
+      <div class="col-lg-6">
+        <h3>Contact us</h3>
+        <ContactForm />
+      </div>
+    </div>
+  </div>
 
   <ToTop />
 </LandingLayout>
