@@ -11,7 +11,13 @@ const media = await fetch(
 const post = await res.json();
 const postMedia = await media.json();
 
-//console.log(post);
+console.log(postMedia);
+
+const hasFeaturedMedia =
+  postMedia._embedded &&
+  postMedia._embedded["wp:featuredmedia"] &&
+  postMedia._embedded["wp:featuredmedia"][0] &&
+  postMedia._embedded["wp:featuredmedia"][0].source_url;
 ---
 
 <LandingLayout pageTitle={`article - ${id}`}>
@@ -20,10 +26,13 @@ const postMedia = await media.json();
     style="margin:100px auto; display:flex;flex-direction: column; justify-content:center; align-items:center"
   >
     <img
-      src={postMedia._embedded["wp:featuredmedia"]["0"].media_details.sizes.full
-        .source_url}
+      src={hasFeaturedMedia
+        ? postMedia._embedded["wp:featuredmedia"]["0"].media_details.sizes.full
+            .source_url
+        : "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg"}
       style="width: 72vw; height:30vh"
     />
+
     <br />
     <h1 set:html={post.title.rendered} />
     <p set:html={post.content.rendered} />
