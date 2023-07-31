@@ -21,27 +21,27 @@ import PostsPagination from "../components/PostsPagination";
     class="container-fluid"
     style="margin-top:100px; min-height:100vh;z-index:-1;"
   >
-    <div style="width:86vw;margin:0 auto;">
-      <div
-        style="display:flex;flex-direction:column;justify-content: center;align-items: center; margin-bottom: 40px;"
-      >
-        <h1 style="color:#FF4917">Latest News</h1>
-        <p style="font-size: 14px;">
-          <!-- Not sure where to go to, below we curated a list of all local events
+    <div
+      style="display:flex; flex-direction:column; justify-content:center; align-items: center; margin-bottom: 40px; text-center"
+    >
+      <h1 class="text-center" style="color:#FF4917">Latest News</h1>
+      <p style="font-size: 14px;">
+        <!-- Not sure where to go to, below we curated a list of all local events
           around you. -->
-        </p>
-        <nav aria-label="breadcrumb animated slideInDown">
-          <ol class="breadcrumb text-uppercase">
-            <li class="breadcrumb-item">
-              <a class="text-black" href="/">Home</a>
-            </li>
-            <li class="breadcrumb-item text-black active" aria-current="page">
-              Latest News
-            </li>
-          </ol>
-        </nav>
-      </div>
-      <!-- <CharlotteEventsRadius client:load /> -->
+      </p>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol class="breadcrumb text-uppercase">
+          <li class="breadcrumb-item">
+            <a class="text-black" href="/">Home</a>
+          </li>
+          <li class="breadcrumb-item text-black active" aria-current="page">
+            Latest News
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="container mx-auto">
       <PostsPagination client:load />
     </div>
   </div>

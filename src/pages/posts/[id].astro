@@ -1,6 +1,6 @@
 ---
 import LandingLayout from "../../layouts/LandingLayout.astro";
-
+import ToTop from "../../components/ToTop.astro";
 const { id } = Astro.params;
 const res = await fetch(
   `https://prestigeworldwidelimos.com/carolina-limo-rentals/wp-json/wp/v2/posts/${id}`
@@ -11,7 +11,7 @@ const media = await fetch(
 const post = await res.json();
 const postMedia = await media.json();
 
-console.log(postMedia);
+//console.log(postMedia);
 
 const hasFeaturedMedia =
   postMedia._embedded &&
@@ -20,7 +20,11 @@ const hasFeaturedMedia =
   postMedia._embedded["wp:featuredmedia"][0].source_url;
 ---
 
-<LandingLayout pageTitle={`article - ${id}`}>
+<LandingLayout
+  pageTitle={`article - ${id}`}
+  pageDescription={post.slug}
+  pageKeywords={post.slug}
+>
   <div
     class="container"
     style="margin:100px auto; display:flex;flex-direction: column; justify-content:center; align-items:center"
@@ -36,5 +40,13 @@ const hasFeaturedMedia =
     <br />
     <h1 set:html={post.title.rendered} />
     <p set:html={post.content.rendered} />
+
+    <div class="bread-crumb alert alert-warning">
+      <span>You are here:</span><br />
+      <a href="/">Home</a> > <a href="/latest-news">Latest News</a> > Article : <span
+        set:html={post.slug}
+      />
+    </div>
   </div>
+  <ToTop />
 </LandingLayout>
