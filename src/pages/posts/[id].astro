@@ -1,4 +1,5 @@
 ---
+//import { Image, Picture } from "@astrojs/image/components";
 import LandingLayout from "../../layouts/LandingLayout.astro";
 import ToTop from "../../components/ToTop.astro";
 const { id } = Astro.params;
@@ -30,6 +31,8 @@ const hasFeaturedMedia =
     style="margin:100px auto; display:flex;flex-direction: column; justify-content:center; align-items:center"
   >
     <img
+      width={900}
+      height={400}
       src={hasFeaturedMedia
         ? postMedia._embedded["wp:featuredmedia"]["0"].media_details.sizes.full
             .source_url
