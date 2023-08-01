@@ -42,7 +42,7 @@ const EventList = () => {
             <a href={each.url} className="col-lg-4 mb-4">
               <div className="card">
                 {each.performers.map((perf) => (
-                  <img src={perf.image} alt="" />
+                  <img src={perf.image} alt={each.title} />
                 ))}
                 <div className="card-body">
                   <div

@@ -12,22 +12,25 @@ import ContactForm from "./ContactForrm";
       data-src="/assets/videos/vid01.mp4"
       data-bs-target="#videoModal"
     >
-      <img src="/assets/img/play-btn.webp" alt="play button" />
+      <img
+        src="/assets/img/play-btn.webp"
+        alt="play button"
+        width="560"
+        height="560"
+      />
     </button>
 
     <div
       class="modal fade"
       id="videoModal"
       tabindex="-1"
-      aria-labelledby="exampleModalLabel"
+      aria-labelledby="ModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog">
         <div class="modal-content rounded-0">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">
-              White Pearl Party Bus
-            </h5>
+            <h5 class="modal-title" id="ModalLabel">Charlotte Party Bus</h5>
             <button
               type="button"
               class="btn-close"
@@ -36,12 +39,10 @@ import ContactForm from "./ContactForrm";
           </div>
           <div class="modal-body">
             <!-- 16:9 aspect ratio -->
-            <div class="ratio ratio-16x9">
-              <iframe
-                class="embed-responsive-item"
-                src=""
-                id="video"
-                allowfullscreen></iframe>
+            <div>
+              <video width="800" height="560" controls id="video">
+                <source src="/assets/videos/vid01.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
         </div>
