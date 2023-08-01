@@ -1,6 +1,6 @@
 # PWWL Astro + React Website
 
-[![Build Status](https://badges.netlify.com/api/site-name.svg?branch=master)](https://app.netlify.com/sites/site-name/deploys)
+[![Build Status](https://badges.netlify.com/api/site-name.svg?branch=master)](https://glittering-biscuit-572c74.netlify.app/)
 
 ```
 Download then do npm install
