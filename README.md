@@ -1,5 +1,7 @@
 # PWWL Astro + React Website
 
+[![Build Status](https://badges.netlify.com/api/site-name.svg?branch=master)](https://app.netlify.com/sites/site-name/deploys)
+
 ```
 Download then do npm install
 ```

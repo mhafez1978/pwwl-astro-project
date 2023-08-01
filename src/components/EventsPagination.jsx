@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-//import { ArchiveBoxArrowDownIcon } from "@heroicons/react/24/outline";
 import Spinner from "./Spinner";
 
 const EventList = () => {
