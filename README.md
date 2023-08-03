@@ -1,6 +1,7 @@
 # PWWL Astro + React Website
 
-https://supabase.com/launch-week/tickets/mhafez1978?lw=8
+<!-- https://supabase.com/launch-week/tickets/mhafez1978?lw=8 -->
+
 [![Build Status](https://badges.netlify.com/api/site-name.svg?branch=master)](https://app.netlify.com/sites/glittering-biscuit-572c74/deploys)
 
 ```
