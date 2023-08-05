@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import Spinner from "./Spinner";
 import { format } from "date-fns";
 
-const API_URL = `https://api.prestigeworldwidelimos.com/carolina-limo-rentals/wp-json/wp/v2/posts?_embed&per_page=100`;
-const Author_URL = `https://api.prestigeworldwidelimos.com/carolina-limo-rentals/wp-json/wp/v2/users`;
+const API_URL = `https://prestigeworldwidelimos.com/carolina-limo-rentals/wp-json/wp/v2/posts?_embed&per_page=100`;
+const Author_URL = `https://prestigeworldwidelimos.com/carolina-limo-rentals/wp-json/wp/v2/users`;
 
 const fetchAllPosts = async () => {
   try {
