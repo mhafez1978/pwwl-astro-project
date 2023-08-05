@@ -9,6 +9,14 @@ body {
 .navbar .nav-item {
   font-size: 16px;
 }
+
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://charlottecitylimo.com/wp-content/uploads/2023/07/WeddingLimoFlowerDecorations-2.jpeg")
+      center center no-repeat;
+  background-size: cover;
+}
+
 .card {
   white-space: nowrap;
   overflow: hidden;
@@ -20,4 +28,11 @@ body {
 .card p {
   white-space: wrap;
   text-align: start;
+}
+
+.fact {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://charlottecitylimo.com/wp-content/uploads/elementor/thumbs/tailgate_Party_Bus-q38f741wiv5y9qfgljli7be917wr6jurauikj3ml0s.jpg")
+      center center no-repeat;
+  background-size: cover;
 }
