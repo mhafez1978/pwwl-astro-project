@@ -4,10 +4,10 @@ import LandingLayout from "../../layouts/LandingLayout.astro";
 import ToTop from "../../components/ToTop.astro";
 const { id } = Astro.params;
 const res = await fetch(
-  `https://prestigeworldwidelimos.com/carolina-limo-rentals/wp-json/wp/v2/posts/${id}`
+  `https://api.charlottecitylimo.com/wp-json/wp/v2/posts/${id}`
 );
 const media = await fetch(
-  `https://prestigeworldwidelimos.com/carolina-limo-rentals/wp-json/wp/v2/posts/${id}?_embed`
+  `https://api.charlottecitylimo.com/wp-json/wp/v2/posts/${id}?_embed`
 );
 const post = await res.json();
 const postMedia = await media.json();
