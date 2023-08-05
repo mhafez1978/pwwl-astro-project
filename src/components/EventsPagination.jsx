@@ -10,7 +10,7 @@ const EventList = () => {
     const fetchEventsGeoIp = async () => {
       try {
         const response2 = await fetch(
-          `https://api.seatgeek.com/2/events?geoip=true&range=140mi&client_id=MzUxNTA5MTl8MTY5MDI1MzI4MS44NTI1NDM4&page=${currentPage}`
+          `https://api.seatgeek.com/2/events?geoip=true&range=40mi&client_id=MzUxNTA5MTl8MTY5MDI1MzI4MS44NTI1NDM4&page=${currentPage}`
         );
         const data = await response2.json();
         setGeoEvents(data.events);
@@ -103,7 +103,7 @@ const EventList = () => {
 
                       <a
                         className="btn btn-primary"
-                        href={each.url}
+                        href={each.venue.url}
                         target="_blank"
                       >
                         Buy Tickets
