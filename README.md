@@ -2,7 +2,7 @@
 
 <!-- https://supabase.com/launch-week/tickets/mhafez1978?lw=8 -->
 
-[![Build Status](https://badges.netlify.com/api/glittering-biscuit-572c74.svg?branch=main)](https://app.netlify.com/sites/glittering-biscuit-572c74/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5b1f4157-5b98-46b5-b672-919754ef573f/deploy-status)](https://app.netlify.com/sites/glittering-biscuit-572c74/deploys)
 
 ```
 Download then do npm install
