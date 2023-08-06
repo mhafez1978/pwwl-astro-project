@@ -72,7 +72,7 @@ const PostList = () => {
   // Function to get the author username based on the author ID
   const getAuthorUsername = (authorId) => {
     const author = postAuthors.find((author) => author.id === authorId);
-    return author ? author.name : "PWWL";
+    return author ? author.name : "Frankie C";
   };
 
   return (
@@ -161,9 +161,11 @@ const PostList = () => {
                         __html: post.excerpt.rendered.substring(0, 80),
                       }}
                     />
-                    <p style={{ fontSize: "12px" }}>
+                    <p style={{ fontSize: "14px" }}>
                       Author: {getAuthorUsername(post.author)} <br />
-                      <a href={`/posts/${post.id}`}>Read the article...</a>
+                      <a href={`/posts/${post.id}`} target="_self">
+                        > Read the article...
+                      </a>
                     </p>
                   </div>
                 </div>
