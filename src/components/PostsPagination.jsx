@@ -122,6 +122,7 @@ const PostList = () => {
 
               return (
                 <div
+                  key={post.id}
                   className="card d-flex flex-column"
                   style={{
                     width: "18rem",
