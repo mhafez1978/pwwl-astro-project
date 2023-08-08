@@ -1,0 +1,60 @@
+---
+const res = await fetch(
+  "https://charlottecitylimo.com/wp-json/wp/v2/posts?_embed"
+);
+
+const posts = await res.json();
+
+// console.log(posts);
+let hasFeaturedMedia;
+import PostAuthor from "./PostAuthor.astro";
+---
+
+<div class="col-lg-12">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    {
+      posts.map((post) => (
+        <>
+          <div class="col">
+            <div class="card" style="height:26rem;">
+              <div style="display:none;">
+                {
+                  (hasFeaturedMedia =
+                    post._embedded["wp:featuredmedia"] &&
+                    post._embedded["wp:featuredmedia"][0] &&
+                    post._embedded["wp:featuredmedia"][0].source_url)
+                }
+              </div>
+              <img
+                class="card-img-top"
+                src={
+                  hasFeaturedMedia !== undefined
+                    ? post._embedded["wp:featuredmedia"] &&
+                      post._embedded["wp:featuredmedia"][0] &&
+                      post._embedded["wp:featuredmedia"][0].source_url
+                    : "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg"
+                }
+                style="height:200px"
+              />
+              <div class="card-body">
+                <p class="card-title" style="font-size: 20px;color:#222">
+                  {post.author}
+                  {post.title.rendered.substring(0, 34)} ...
+                </p>
+                <p
+                  class="card-text"
+                  style="font-size: 14px"
+                  set:html={post.excerpt.rendered.substring(0, 100) + `...`}
+                />
+                <PostAuthor id={post.author} />
+                <a href={`/posts/${post.id}`} target="_self">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </>
+      ))
+    }
+  </div>
+</div>

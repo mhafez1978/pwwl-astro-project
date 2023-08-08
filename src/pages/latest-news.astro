@@ -3,6 +3,8 @@ import LandingLayout from "../layouts/LandingLayout.astro";
 import Spinner from "../components/Spinner.astro";
 import ToTop from "../components/ToTop.astro";
 import PostsPagination from "../components/PostsPagination";
+import MyPosts from "../components/MyPosts";
+import ExternalPosts from "../components/ExternalPosts.astro";
 ---
 
 <LandingLayout
@@ -36,7 +38,9 @@ import PostsPagination from "../components/PostsPagination";
     </div>
 
     <div class="container mx-auto">
-      <PostsPagination client:load />
+      <!-- <PostsPagination client:load /> -->
+      <ExternalPosts />
+      <!-- <MyPosts client:load /> -->
     </div>
   </div>
   <ToTop />

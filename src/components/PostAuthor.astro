@@ -1,0 +1,10 @@
+---
+const { id } = Astro.props;
+
+const res = await fetch(
+  `https://charlottecitylimo.com/wp-json/wp/v2/users/${id}`
+);
+const wroteBy = await res.json();
+---
+
+<p style="font-size: 14px; color:#222">By: {wroteBy.name}</p>
