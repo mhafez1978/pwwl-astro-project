@@ -1,0 +1,1753 @@
+{
+  "events": [
+    {
+      "type": "minor_league_baseball",
+      "id": 5978128,
+      "datetime_utc": "2023-07-26T23:00:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "L. P. Frans Stadium",
+        "postal_code": "28601",
+        "name": "L. P. Frans Stadium",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/l-p-frans-stadium-2/tickets",
+        "score": 0.41,
+        "location": {
+          "lat": 35.7486,
+          "lon": -81.3792
+        },
+        "address": "2500 Clement Blvd NW",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 23,
+        "city": "Hickory",
+        "slug": "l-p-frans-stadium-2",
+        "extended_address": "Hickory, NC 28601",
+        "id": 302962,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 0,
+        "display_location": "Hickory, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Hickory Crawdads",
+          "image": "https://seatgeek.com/images/performers-landscape/hickory-crawdads-0337fe/9284/huge.jpg",
+          "id": 9284,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/hickory-crawdads-0337fe/9284/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 41
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/hickory-crawdads-tickets",
+          "score": 0.32,
+          "slug": "hickory-crawdads",
+          "home_venue_id": 302962,
+          "short_name": "Hickory Crawdads",
+          "num_upcoming_events": 41,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 35.7486,
+            "lon": -81.3792
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-26T19:00:00",
+      "time_tbd": false,
+      "short_title": "Hudson Valley Renegades at Hickory Crawdads",
+      "visible_until_utc": "2023-07-27T03:00:00",
+      "stats": {
+        "listing_count": 15,
+        "average_price": 36,
+        "lowest_price_good_deals": null,
+        "lowest_price": 13,
+        "highest_price": 60,
+        "visible_listing_count": 15,
+        "dq_bucket_counts": null,
+        "median_price": 45,
+        "lowest_sg_base_price": 4,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/hudson-valley-renegades-at-hickory-crawdads-tickets/minor-league-baseball/2023-07-26-7-pm/5978128",
+      "score": 0.22,
+      "announce_date": "2023-03-23T00:00:00",
+      "created_at": "2023-03-23T22:35:18",
+      "date_tbd": false,
+      "title": "Hudson Valley Renegades at Hickory Crawdads",
+      "popularity": 0.685,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:54:59Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 5997754,
+      "datetime_utc": "2023-07-26T23:00:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "Comedy Zone Charlotte",
+        "postal_code": "28206",
+        "name": "Comedy Zone Charlotte",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/comedy-zone-charlotte-2/tickets",
+        "score": 0.46,
+        "location": {
+          "lat": 35.239,
+          "lon": -80.845
+        },
+        "address": "900 Seaboard Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 41,
+        "city": "Charlotte",
+        "slug": "comedy-zone-charlotte-2",
+        "extended_address": "Charlotte, NC 28206",
+        "id": 8502,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 0,
+        "display_location": "Charlotte, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Rory Scovel",
+          "image": "https://seatgeek.com/images/performers-landscape/rory-scovel-499e00/31818/22680/huge.jpg",
+          "id": 31818,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/rory-scovel-499e00/31818/22680/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 18
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "Alexander Tamargo / Getty Images Entertainment / Getty Images",
+          "url": "https://seatgeek.com/rory-scovel-tickets",
+          "score": 0.31,
+          "slug": "rory-scovel",
+          "home_venue_id": null,
+          "short_name": "Rory Scovel",
+          "num_upcoming_events": 18,
+          "colors": null,
+          "image_license": "rightsmanaged",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": "(c) Alexander Tamargo / Getty Images Entertainment / Getty Images"
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-26T19:00:00",
+      "time_tbd": false,
+      "short_title": "Rory Scovel (18+)",
+      "visible_until_utc": "2023-07-27T03:00:00",
+      "stats": {
+        "listing_count": null,
+        "average_price": null,
+        "lowest_price_good_deals": null,
+        "lowest_price": null,
+        "highest_price": null,
+        "visible_listing_count": null,
+        "dq_bucket_counts": null,
+        "median_price": null,
+        "lowest_sg_base_price": null,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 1
+        }
+      ],
+      "url": "https://seatgeek.com/rory-scovel-18-tickets/charlotte-north-carolina-comedy-zone-charlotte-2-2023-07-26-7-pm/concert/5997754",
+      "score": 0.224,
+      "announce_date": "2023-04-16T00:00:00",
+      "created_at": "2023-04-16T15:02:44",
+      "date_tbd": false,
+      "title": "Rory Scovel (18+)",
+      "popularity": 0.687,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T01:17:55Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "broadway_tickets_national",
+      "id": 5716014,
+      "datetime_utc": "2023-07-26T23:30:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "Belk Theater at Blumenthal Performing Arts Center",
+        "postal_code": "28202",
+        "name": "Belk Theater at Blumenthal Performing Arts Center",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/belk-theater-at-blumenthal-performing-arts-center/tickets",
+        "score": 0.64,
+        "location": {
+          "lat": 35.2273,
+          "lon": -80.8415
+        },
+        "address": "130 North Tryon Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 49,
+        "city": "Charlotte",
+        "slug": "belk-theater-at-blumenthal-performing-arts-center",
+        "extended_address": "Charlotte, NC 28202",
+        "id": 2197,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 2097,
+        "display_location": "Charlotte, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "theater_broadway_national_tours",
+          "name": "Ain't Too Proud: The Life and Times of The Temptations\t",
+          "image": "https://seatgeek.com/images/performers-landscape/ain-t-too-proud-the-life-and-times-of-the-temptations-f1588c/676555/huge.jpg",
+          "id": 676555,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/ain-t-too-proud-the-life-and-times-of-the-temptations-f1588c/676555/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 138
+          },
+          "taxonomies": [
+            {
+              "id": 3000000,
+              "name": "theater",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 4
+            },
+            {
+              "id": 3030000,
+              "name": "broadway_tickets_national",
+              "parent_id": 3000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/ain-t-too-proud-the-life-and-times-of-the-temptations-tickets",
+          "score": 0.4,
+          "slug": "ain-t-too-proud-the-life-and-times-of-the-temptations",
+          "home_venue_id": null,
+          "short_name": "Ain't Too Proud: The Life and Times of The Temptations\t",
+          "num_upcoming_events": 138,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-26T19:30:00",
+      "time_tbd": false,
+      "short_title": "Ain't Too Proud: The Life and Times of The Temptations - Charlotte",
+      "visible_until_utc": "2023-07-27T03:30:00",
+      "stats": {
+        "listing_count": null,
+        "average_price": null,
+        "lowest_price_good_deals": null,
+        "lowest_price": null,
+        "highest_price": null,
+        "visible_listing_count": null,
+        "dq_bucket_counts": null,
+        "median_price": null,
+        "lowest_sg_base_price": null,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 3000000,
+          "name": "theater",
+          "parent_id": null,
+          "rank": 4
+        },
+        {
+          "id": 3030000,
+          "name": "broadway_tickets_national",
+          "parent_id": 3000000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/aint-too-proud-the-life-and-times-of-the-temptations-charlotte-tickets/belk-theater-at-blumenthal-performing-arts-center-2023-07-26-7-30-pm/broadway/5716014",
+      "score": 0.409,
+      "announce_date": "2022-05-24T00:00:00",
+      "created_at": "2022-05-24T22:19:38",
+      "date_tbd": false,
+      "title": "Ain't Too Proud: The Life and Times of The Temptations - Charlotte",
+      "popularity": 0.776,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:42:34Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 6071120,
+      "datetime_utc": "2023-07-27T00:00:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "Snug Harbor",
+        "postal_code": "28205",
+        "name": "Snug Harbor",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/snug-harbor/tickets",
+        "score": 0,
+        "location": {
+          "lat": 35.22,
+          "lon": -80.8133
+        },
+        "address": "1228 Gordon Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 2,
+        "city": "Charlotte",
+        "slug": "snug-harbor",
+        "extended_address": "Charlotte, NC 28205",
+        "id": 12237,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 0,
+        "display_location": "Charlotte, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Tennis Courts",
+          "image": "https://seatgeek.com/images/performers-landscape/tennis-courts-aa1191/797567/huge.jpg",
+          "id": 797567,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/tennis-courts-aa1191/797567/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 2
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/tennis-courts-tickets",
+          "score": 0.28,
+          "slug": "tennis-courts",
+          "home_venue_id": null,
+          "short_name": "Tennis Courts",
+          "num_upcoming_events": 2,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-26T20:00:00",
+      "time_tbd": false,
+      "short_title": "Tennis Courts",
+      "visible_until_utc": "2023-07-27T04:00:00",
+      "stats": {
+        "listing_count": null,
+        "average_price": null,
+        "lowest_price_good_deals": null,
+        "lowest_price": null,
+        "highest_price": null,
+        "visible_listing_count": null,
+        "dq_bucket_counts": null,
+        "median_price": null,
+        "lowest_sg_base_price": null,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 1
+        }
+      ],
+      "url": "https://seatgeek.com/tennis-courts-tickets/charlotte-north-carolina-snug-harbor-2023-07-26-8-pm/concert/6071120",
+      "score": 0.266,
+      "announce_date": "2023-06-26T00:00:00",
+      "created_at": "2023-06-26T10:55:21",
+      "date_tbd": false,
+      "title": "Tennis Courts",
+      "popularity": 0.687,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-06-26T11:48:46Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5978098,
+      "datetime_utc": "2023-07-27T23:00:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "L. P. Frans Stadium",
+        "postal_code": "28601",
+        "name": "L. P. Frans Stadium",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/l-p-frans-stadium-2/tickets",
+        "score": 0.41,
+        "location": {
+          "lat": 35.7486,
+          "lon": -81.3792
+        },
+        "address": "2500 Clement Blvd NW",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 23,
+        "city": "Hickory",
+        "slug": "l-p-frans-stadium-2",
+        "extended_address": "Hickory, NC 28601",
+        "id": 302962,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 0,
+        "display_location": "Hickory, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Hickory Crawdads",
+          "image": "https://seatgeek.com/images/performers-landscape/hickory-crawdads-0337fe/9284/huge.jpg",
+          "id": 9284,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/hickory-crawdads-0337fe/9284/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 41
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/hickory-crawdads-tickets",
+          "score": 0.32,
+          "slug": "hickory-crawdads",
+          "home_venue_id": 302962,
+          "short_name": "Hickory Crawdads",
+          "num_upcoming_events": 41,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 35.7486,
+            "lon": -81.3792
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-27T19:00:00",
+      "time_tbd": false,
+      "short_title": "Hudson Valley Renegades at Hickory Crawdads",
+      "visible_until_utc": "2023-07-28T03:00:00",
+      "stats": {
+        "listing_count": 39,
+        "average_price": 41,
+        "lowest_price_good_deals": null,
+        "lowest_price": 15,
+        "highest_price": 61,
+        "visible_listing_count": 38,
+        "dq_bucket_counts": null,
+        "median_price": 44,
+        "lowest_sg_base_price": 6,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/hudson-valley-renegades-at-hickory-crawdads-tickets/minor-league-baseball/2023-07-27-7-pm/5978098",
+      "score": 0.257,
+      "announce_date": "2023-03-23T00:00:00",
+      "created_at": "2023-03-23T22:35:08",
+      "date_tbd": false,
+      "title": "Hudson Valley Renegades at Hickory Crawdads",
+      "popularity": 0.662,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:53:05Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5897014,
+      "datetime_utc": "2023-07-27T23:00:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "Atrium Health Ballpark",
+        "postal_code": "28081",
+        "name": "Atrium Health Ballpark",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/atrium-health-ballpark-2/tickets",
+        "score": 0.47,
+        "location": {
+          "lat": 35.4979,
+          "lon": -80.6278
+        },
+        "address": "1 Cannon Baller Way",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 22,
+        "city": "Kannapolis",
+        "slug": "atrium-health-ballpark-2",
+        "extended_address": "Kannapolis, NC 28081",
+        "id": 266201,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 0,
+        "display_location": "Kannapolis, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Kannapolis Cannon Ballers",
+          "image": "https://seatgeek.com/images/performers-landscape/kannapolis-cannon-ballers-af3f5a/9371/huge.jpg",
+          "id": 9371,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/kannapolis-cannon-ballers-af3f5a/9371/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 40
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/kannapolis-cannon-ballers-tickets",
+          "score": 0.3,
+          "slug": "kannapolis-cannon-ballers",
+          "home_venue_id": 266201,
+          "short_name": "Kannapolis Intimidators",
+          "num_upcoming_events": 40,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 35.4979,
+            "lon": -80.6278
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Delmarva Shorebirds",
+          "image": "https://seatgeek.com/images/performers-landscape/delmarva-shorebirds-94abd2/9260/huge.jpg",
+          "id": 9260,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/delmarva-shorebirds-94abd2/9260/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 46
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/delmarva-shorebirds-tickets",
+          "score": 0.29,
+          "slug": "delmarva-shorebirds",
+          "home_venue_id": 74373,
+          "short_name": "Delmarva Shorebirds",
+          "num_upcoming_events": 46,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 38.37,
+            "lon": -75.53
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-27T19:00:00",
+      "time_tbd": false,
+      "short_title": "Delmarva Shorebirds at Kannapolis Cannon Ballers",
+      "visible_until_utc": "2023-07-28T03:00:00",
+      "stats": {
+        "listing_count": 13,
+        "average_price": 38,
+        "lowest_price_good_deals": null,
+        "lowest_price": 22,
+        "highest_price": 57,
+        "visible_listing_count": 13,
+        "dq_bucket_counts": [0, 0, 0, 0, 0, 0, 0, 0],
+        "median_price": 39,
+        "lowest_sg_base_price": 11,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/delmarva-shorebirds-at-kannapolis-cannon-ballers-tickets/minor-league-baseball/2023-07-27-7-pm/5897014",
+      "score": 0.269,
+      "announce_date": "2022-12-14T00:00:00",
+      "created_at": "2022-12-14T22:09:41",
+      "date_tbd": false,
+      "title": "Delmarva Shorebirds at Kannapolis Cannon Ballers",
+      "popularity": 0.652,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:56:31Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "broadway_tickets_national",
+      "id": 5716013,
+      "datetime_utc": "2023-07-27T23:30:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "Belk Theater at Blumenthal Performing Arts Center",
+        "postal_code": "28202",
+        "name": "Belk Theater at Blumenthal Performing Arts Center",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/belk-theater-at-blumenthal-performing-arts-center/tickets",
+        "score": 0.64,
+        "location": {
+          "lat": 35.2273,
+          "lon": -80.8415
+        },
+        "address": "130 North Tryon Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 49,
+        "city": "Charlotte",
+        "slug": "belk-theater-at-blumenthal-performing-arts-center",
+        "extended_address": "Charlotte, NC 28202",
+        "id": 2197,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 2097,
+        "display_location": "Charlotte, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "theater_broadway_national_tours",
+          "name": "Ain't Too Proud: The Life and Times of The Temptations\t",
+          "image": "https://seatgeek.com/images/performers-landscape/ain-t-too-proud-the-life-and-times-of-the-temptations-f1588c/676555/huge.jpg",
+          "id": 676555,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/ain-t-too-proud-the-life-and-times-of-the-temptations-f1588c/676555/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 138
+          },
+          "taxonomies": [
+            {
+              "id": 3000000,
+              "name": "theater",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 4
+            },
+            {
+              "id": 3030000,
+              "name": "broadway_tickets_national",
+              "parent_id": 3000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/ain-t-too-proud-the-life-and-times-of-the-temptations-tickets",
+          "score": 0.4,
+          "slug": "ain-t-too-proud-the-life-and-times-of-the-temptations",
+          "home_venue_id": null,
+          "short_name": "Ain't Too Proud: The Life and Times of The Temptations\t",
+          "num_upcoming_events": 138,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-27T19:30:00",
+      "time_tbd": false,
+      "short_title": "Ain't Too Proud: The Life and Times of The Temptations - Charlotte",
+      "visible_until_utc": "2023-07-28T03:30:00",
+      "stats": {
+        "listing_count": 4,
+        "average_price": 143,
+        "lowest_price_good_deals": 129,
+        "lowest_price": 129,
+        "highest_price": 148,
+        "visible_listing_count": 4,
+        "dq_bucket_counts": [0, 0, 4, 1, 0, 0, 0, 0],
+        "median_price": 144,
+        "lowest_sg_base_price": 84,
+        "lowest_sg_base_price_good_deals": 84
+      },
+      "taxonomies": [
+        {
+          "id": 3000000,
+          "name": "theater",
+          "parent_id": null,
+          "rank": 4
+        },
+        {
+          "id": 3030000,
+          "name": "broadway_tickets_national",
+          "parent_id": 3000000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/aint-too-proud-the-life-and-times-of-the-temptations-charlotte-tickets/belk-theater-at-blumenthal-performing-arts-center-2023-07-27-7-30-pm/broadway/5716013",
+      "score": 0.428,
+      "announce_date": "2022-05-24T00:00:00",
+      "created_at": "2022-05-24T22:19:38",
+      "date_tbd": false,
+      "title": "Ain't Too Proud: The Life and Times of The Temptations - Charlotte",
+      "popularity": 0.746,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:42:34Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "concert",
+      "id": 6033910,
+      "datetime_utc": "2023-07-28T00:00:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "Neighborhood Theatre",
+        "postal_code": "28205",
+        "name": "Neighborhood Theatre",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/neighborhood-theatre/tickets",
+        "score": 0.47,
+        "location": {
+          "lat": 35.2474,
+          "lon": -80.8041
+        },
+        "address": "511 East 36th Street",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 9,
+        "city": "Charlotte",
+        "slug": "neighborhood-theatre",
+        "extended_address": "Charlotte, NC 28205",
+        "id": 1526,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 956,
+        "display_location": "Charlotte, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "band",
+          "name": "Kurt Vile",
+          "image": "https://seatgeek.com/images/performers-landscape/kurt-vile-897abc/9697/45885/huge.jpg",
+          "id": 9697,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/kurt-vile-897abc/9697/45885/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 6
+          },
+          "taxonomies": [
+            {
+              "id": 2000000,
+              "name": "concerts",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 1
+            }
+          ],
+          "image_attribution": "NBC / NBCUniversal / Getty Images",
+          "url": "https://seatgeek.com/kurt-vile-tickets",
+          "score": 0.43,
+          "slug": "kurt-vile",
+          "home_venue_id": null,
+          "short_name": "Kurt Vile",
+          "num_upcoming_events": 6,
+          "colors": null,
+          "image_license": "rightsmanaged",
+          "genres": [
+            {
+              "id": 458,
+              "name": "Indie",
+              "slug": "indie",
+              "primary": true,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/grouplove-7dc170/8987/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/grouplove-aebc67/8987/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/grouplove-517eb0/8987/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/grouplove-6e5604/8987/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/grouplove-e96319/8987/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/grouplove-d258e7/8987/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/grouplove-6516be/8987/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/grouplove-00b854/8987/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/grouplove-ed95fb/8987/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/grouplove-49e1b9/8987/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/grouplove-130cf0/8987/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/grouplove-dfa0f2/8987/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/grouplove-86be87/8987/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/grouplove-1a2d3c/8987/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/grouplove-96faa0/8987/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/grouplove-4e5715/8987/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/grouplove-44dd3b/8987/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/grouplove-394ae0/8987/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/grouplove-fccf01/8987/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/grouplove-63daca/8987/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/grouplove-1a2d3c/8987/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            },
+            {
+              "id": 452,
+              "name": "Pop",
+              "slug": "pop",
+              "primary": false,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/drake-b29aab/2351/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/drake-80d011/2351/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/drake-ca8205/2351/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/drake-1d9013/2351/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/drake-40f192/2351/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/drake-6fd342/2351/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/drake-915735/2351/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/drake-7e9c74/2351/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/drake-6ee009/2351/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/drake-2f0d71/2351/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/drake-ede946/2351/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/drake-9d504e/2351/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/drake-2cd846/2351/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/drake-6f7a36/2351/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/drake-d348e8/2351/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/drake-31df3d/2351/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/drake-35a99f/2351/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/drake-97d814/2351/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/drake-bbe912/2351/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/drake-956e60/2351/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/drake-6f7a36/2351/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            },
+            {
+              "id": 456,
+              "name": "Rock",
+              "slug": "rock",
+              "primary": false,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/taylor-swift-95bfc1/35/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/taylor-swift-5aed70/35/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/taylor-swift-ea1e7e/35/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/taylor-swift-23f9f5/35/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/taylor-swift-1ad124/35/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/taylor-swift-397e97/35/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/taylor-swift-9e502b/35/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/taylor-swift-310144/35/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/taylor-swift-19e3f0/35/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/taylor-swift-92ebf3/35/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/taylor-swift-bab6e1/35/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1dbf4/35/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/taylor-swift-15afb9/35/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1e4b6/35/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/taylor-swift-3ebde5/35/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/taylor-swift-a807ae/35/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/taylor-swift-69d4a9/35/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/taylor-swift-5a3f01/35/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/taylor-swift-db2f1f/35/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/taylor-swift-c3abf8/35/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/taylor-swift-c1e4b6/35/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            },
+            {
+              "id": 467,
+              "name": "Folk",
+              "slug": "folk",
+              "primary": false,
+              "images": {
+                "1200x525": "https://seatgeek.com/images/performers-landscape/morgan-wallen-a1654c/562860/1200x525.jpg",
+                "1200x627": "https://seatgeek.com/images/performers-landscape/morgan-wallen-46e002/562860/1200x627.jpg",
+                "136x136": "https://seatgeek.com/images/performers-landscape/morgan-wallen-956f19/562860/136x136.jpg",
+                "500_700": "https://seatgeek.com/images/performers-landscape/morgan-wallen-070844/562860/500_700.jpg",
+                "800x320": "https://seatgeek.com/images/performers-landscape/morgan-wallen-022903/562860/800x320.jpg",
+                "banner": "https://seatgeek.com/images/performers-landscape/morgan-wallen-3f8bce/562860/banner.jpg",
+                "block": "https://seatgeek.com/images/performers-landscape/morgan-wallen-0eeb69/562860/block.jpg",
+                "criteo_130_160": "https://seatgeek.com/images/performers-landscape/morgan-wallen-56b55a/562860/criteo_130_160.jpg",
+                "criteo_170_235": "https://seatgeek.com/images/performers-landscape/morgan-wallen-0791ce/562860/criteo_170_235.jpg",
+                "criteo_205_100": "https://seatgeek.com/images/performers-landscape/morgan-wallen-07af49/562860/criteo_205_100.jpg",
+                "criteo_400_300": "https://seatgeek.com/images/performers-landscape/morgan-wallen-584042/562860/criteo_400_300.jpg",
+                "fb_100x72": "https://seatgeek.com/images/performers-landscape/morgan-wallen-1f9898/562860/fb_100x72.jpg",
+                "fb_600_315": "https://seatgeek.com/images/performers-landscape/morgan-wallen-028473/562860/fb_600_315.jpg",
+                "huge": "https://seatgeek.com/images/performers-landscape/morgan-wallen-5805b8/562860/huge.jpg",
+                "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/morgan-wallen-9189a1/562860/ipad_event_modal.jpg",
+                "ipad_header": "https://seatgeek.com/images/performers-landscape/morgan-wallen-660ec9/562860/ipad_header.jpg",
+                "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/morgan-wallen-db46ca/562860/ipad_mini_explore.jpg",
+                "mongo": "https://seatgeek.com/images/performers-landscape/morgan-wallen-09a968/562860/mongo.jpg",
+                "square_mid": "https://seatgeek.com/images/performers-landscape/morgan-wallen-084bb5/562860/square_mid.jpg",
+                "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/morgan-wallen-e49624/562860/triggit_fb_ad.jpg"
+              },
+              "image": "https://seatgeek.com/images/performers-landscape/morgan-wallen-5805b8/562860/huge.jpg",
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              }
+            }
+          ],
+          "popularity": 0,
+          "location": null,
+          "image_rights_message": "(c) NBC / NBCUniversal / Getty Images"
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-27T20:00:00",
+      "time_tbd": false,
+      "short_title": "Kurt Vile",
+      "visible_until_utc": "2023-07-28T04:00:00",
+      "stats": {
+        "listing_count": 2,
+        "average_price": 106,
+        "lowest_price_good_deals": null,
+        "lowest_price": 98,
+        "highest_price": 113,
+        "visible_listing_count": 2,
+        "dq_bucket_counts": [0, 0, 0, 0, 0, 0, 0, 0],
+        "median_price": 100,
+        "lowest_sg_base_price": 69,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concert",
+          "parent_id": null,
+          "rank": 1
+        }
+      ],
+      "url": "https://seatgeek.com/kurt-vile-tickets/charlotte-north-carolina-neighborhood-theatre-2023-07-27-8-pm/concert/6033910",
+      "score": 0.25,
+      "announce_date": "2023-05-20T00:00:00",
+      "created_at": "2023-05-20T15:01:34",
+      "date_tbd": false,
+      "title": "Kurt Vile",
+      "popularity": 0.661,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-05-20T11:42:30Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5978153,
+      "datetime_utc": "2023-07-28T23:00:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "L. P. Frans Stadium",
+        "postal_code": "28601",
+        "name": "L. P. Frans Stadium",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/l-p-frans-stadium-2/tickets",
+        "score": 0.41,
+        "location": {
+          "lat": 35.7486,
+          "lon": -81.3792
+        },
+        "address": "2500 Clement Blvd NW",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 23,
+        "city": "Hickory",
+        "slug": "l-p-frans-stadium-2",
+        "extended_address": "Hickory, NC 28601",
+        "id": 302962,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 0,
+        "display_location": "Hickory, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Hickory Crawdads",
+          "image": "https://seatgeek.com/images/performers-landscape/hickory-crawdads-0337fe/9284/huge.jpg",
+          "id": 9284,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/hickory-crawdads-0337fe/9284/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 41
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/hickory-crawdads-tickets",
+          "score": 0.32,
+          "slug": "hickory-crawdads",
+          "home_venue_id": 302962,
+          "short_name": "Hickory Crawdads",
+          "num_upcoming_events": 41,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 35.7486,
+            "lon": -81.3792
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Hudson Valley Renegades",
+          "image": "https://seatgeek.com/images/performers-landscape/hudson-valley-renegades-e22762/9229/huge.jpg",
+          "id": 9229,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/hudson-valley-renegades-e22762/9229/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 37
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/hudson-valley-renegades-tickets",
+          "score": 0.35,
+          "slug": "hudson-valley-renegades",
+          "home_venue_id": 202,
+          "short_name": "Hudson Valley Renegades",
+          "num_upcoming_events": 37,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 41.5272,
+            "lon": -73.9609
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-28T19:00:00",
+      "time_tbd": false,
+      "short_title": "Hudson Valley Renegades at Hickory Crawdads",
+      "visible_until_utc": "2023-07-29T03:00:00",
+      "stats": {
+        "listing_count": 44,
+        "average_price": 39,
+        "lowest_price_good_deals": null,
+        "lowest_price": 17,
+        "highest_price": 61,
+        "visible_listing_count": 43,
+        "dq_bucket_counts": null,
+        "median_price": 39,
+        "lowest_sg_base_price": 7,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/hudson-valley-renegades-at-hickory-crawdads-tickets/minor-league-baseball/2023-07-28-7-pm/5978153",
+      "score": 0.302,
+      "announce_date": "2023-03-23T00:00:00",
+      "created_at": "2023-03-23T22:40:16",
+      "date_tbd": false,
+      "title": "Hudson Valley Renegades at Hickory Crawdads",
+      "popularity": 0.663,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T01:13:20Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    },
+    {
+      "type": "minor_league_baseball",
+      "id": 5897016,
+      "datetime_utc": "2023-07-28T23:00:00",
+      "venue": {
+        "state": "NC",
+        "name_v2": "Atrium Health Ballpark",
+        "postal_code": "28081",
+        "name": "Atrium Health Ballpark",
+        "links": [],
+        "timezone": "America/New_York",
+        "url": "https://seatgeek.com/venues/atrium-health-ballpark-2/tickets",
+        "score": 0.47,
+        "location": {
+          "lat": 35.4979,
+          "lon": -80.6278
+        },
+        "address": "1 Cannon Baller Way",
+        "country": "US",
+        "has_upcoming_events": true,
+        "num_upcoming_events": 22,
+        "city": "Kannapolis",
+        "slug": "atrium-health-ballpark-2",
+        "extended_address": "Kannapolis, NC 28081",
+        "id": 266201,
+        "popularity": 0,
+        "access_method": null,
+        "metro_code": 517,
+        "capacity": 0,
+        "display_location": "Kannapolis, NC"
+      },
+      "datetime_tbd": false,
+      "performers": [
+        {
+          "type": "minor_league_baseball",
+          "name": "Kannapolis Cannon Ballers",
+          "image": "https://seatgeek.com/images/performers-landscape/kannapolis-cannon-ballers-af3f5a/9371/huge.jpg",
+          "id": 9371,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/kannapolis-cannon-ballers-af3f5a/9371/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "primary": true,
+          "stats": {
+            "event_count": 40
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/kannapolis-cannon-ballers-tickets",
+          "score": 0.3,
+          "slug": "kannapolis-cannon-ballers",
+          "home_venue_id": 266201,
+          "short_name": "Kannapolis Intimidators",
+          "num_upcoming_events": 40,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "home_team": true,
+          "location": {
+            "lat": 35.4979,
+            "lon": -80.6278
+          },
+          "image_rights_message": ""
+        },
+        {
+          "type": "minor_league_baseball",
+          "name": "Delmarva Shorebirds",
+          "image": "https://seatgeek.com/images/performers-landscape/delmarva-shorebirds-94abd2/9260/huge.jpg",
+          "id": 9260,
+          "images": {
+            "huge": "https://seatgeek.com/images/performers-landscape/delmarva-shorebirds-94abd2/9260/huge.jpg"
+          },
+          "divisions": null,
+          "has_upcoming_events": true,
+          "stats": {
+            "event_count": 46
+          },
+          "taxonomies": [
+            {
+              "id": 1000000,
+              "name": "sports",
+              "parent_id": null,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010000,
+              "name": "baseball",
+              "parent_id": 1000000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            },
+            {
+              "id": 1010300,
+              "name": "minor_league_baseball",
+              "parent_id": 1010000,
+              "document_source": {
+                "source_type": "ELASTIC",
+                "generation_type": "FULL"
+              },
+              "rank": 0
+            }
+          ],
+          "image_attribution": "SeatGeek - 2022 (2000 X 2000)",
+          "url": "https://seatgeek.com/delmarva-shorebirds-tickets",
+          "score": 0.29,
+          "slug": "delmarva-shorebirds",
+          "home_venue_id": 74373,
+          "short_name": "Delmarva Shorebirds",
+          "num_upcoming_events": 46,
+          "colors": null,
+          "image_license": "SeatGeek - 2022 (2000 X 2000)",
+          "popularity": 0,
+          "away_team": true,
+          "location": {
+            "lat": 38.37,
+            "lon": -75.53
+          },
+          "image_rights_message": ""
+        }
+      ],
+      "is_open": false,
+      "links": [],
+      "datetime_local": "2023-07-28T19:00:00",
+      "time_tbd": false,
+      "short_title": "Delmarva Shorebirds at Kannapolis Cannon Ballers",
+      "visible_until_utc": "2023-07-29T03:00:00",
+      "stats": {
+        "listing_count": 11,
+        "average_price": 47,
+        "lowest_price_good_deals": null,
+        "lowest_price": 39,
+        "highest_price": 57,
+        "visible_listing_count": 11,
+        "dq_bucket_counts": null,
+        "median_price": 46,
+        "lowest_sg_base_price": 24,
+        "lowest_sg_base_price_good_deals": null
+      },
+      "taxonomies": [
+        {
+          "id": 1000000,
+          "name": "sports",
+          "parent_id": null,
+          "rank": 0
+        },
+        {
+          "id": 1010000,
+          "name": "baseball",
+          "parent_id": 1000000,
+          "rank": 0
+        },
+        {
+          "id": 1010300,
+          "name": "minor_league_baseball",
+          "parent_id": 1010000,
+          "rank": 0
+        }
+      ],
+      "url": "https://seatgeek.com/delmarva-shorebirds-at-kannapolis-cannon-ballers-tickets/minor-league-baseball/2023-07-28-7-pm/5897016",
+      "score": 0.29,
+      "announce_date": "2022-12-14T00:00:00",
+      "created_at": "2022-12-14T22:09:47",
+      "date_tbd": false,
+      "title": "Delmarva Shorebirds at Kannapolis Cannon Ballers",
+      "popularity": 0.632,
+      "description": "",
+      "status": "normal",
+      "access_method": null,
+      "event_promotion": null,
+      "announcements": {},
+      "conditional": false,
+      "enddatetime_utc": null,
+      "visible_at": "2023-04-18T00:56:31Z",
+      "is_visible_override": "UNSET",
+      "tdc_pvo_id": 0,
+      "tdc_pv_id": 0,
+      "themes": [],
+      "domain_information": []
+    }
+  ],
+  "meta": {
+    "total": 613,
+    "took": 13,
+    "page": 1,
+    "per_page": 10,
+    "geolocation": {
+      "lat": 35.26,
+      "lon": -80.8042,
+      "city": "Paw Creek",
+      "state": "NC",
+      "country": "US",
+      "postal_code": "28130",
+      "display_name": "Paw Creek, NC",
+      "metro_code": "517",
+      "range": "50mi"
+    }
+  }
+}
