@@ -248,7 +248,6 @@ export const ContactForm = () => {
               type="text"
               className="form-control border-1"
               placeholder="Number of passengers"
-              defaultValue={1}
               style={{ height: "55px" }}
               onChange={(e) => {
                 setPassengerNumber(e.target.value);
@@ -261,7 +260,6 @@ export const ContactForm = () => {
               type="text"
               className="form-control border-1"
               placeholder="Number of Luggage"
-              defaultValue={0}
               style={{ height: "55px" }}
               onChange={(e) => {
                 setLuggageNumber(e.target.value);

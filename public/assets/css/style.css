@@ -79,6 +79,7 @@
   padding: 0 4.75rem;
   transition: 0.5s;
   z-index: 9999;
+  background-color: #272b30;
 }
 
 .nav-bar.sticky-top {
@@ -232,7 +233,7 @@
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://charlottecitylimo.com/wp-content/uploads/2023/07/WeddingLimoFlowerDecorations-2.jpeg")
+    url("https://charlottecitylimo.com/wp-content/uploads/2022/12/wedding-limo-service.jpg")
       center center no-repeat;
   background-size: cover;
 }
@@ -244,7 +245,7 @@
 /*** Facts ***/
 .fact {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://charlottecitylimo.com/wp-content/uploads/elementor/thumbs/tailgate_Party_Bus-q38f741wiv5y9qfgljli7be917wr6jurauikj3ml0s.jpg")
+    url("https://charlottecitylimo.com/wp-content/uploads/2023/03/tailgate_Party_Bus.jpg")
       center center no-repeat;
   background-size: cover;
 }

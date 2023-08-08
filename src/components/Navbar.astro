@@ -7,7 +7,7 @@ const { title } = Astro.props;
 ---
 
 <!-- Navbar Start -->
-<div class="container-fluid nav-bar bg-dark">
+<div class="container-fluid nav-bar">
   <nav class="navbar navbar-expand-lg navbar-dark p-3 py-lg-0 px-lg-4">
     <a
       href="/"
@@ -104,6 +104,9 @@ const { title } = Astro.props;
 </div>
 <!-- Navbar End -->
 <style>
+  .nav-bar {
+    background-color: #272b30;
+  }
   .nav-link {
     font-size: 0.995rem;
     font-weight: 800;
