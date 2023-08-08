@@ -77,25 +77,6 @@ const PostList = () => {
   return (
     <>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-        {/* <div
-        style={{
-          margin: "0 auto",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <div
-          className="row"
-          style={{
-            margin: "0 auto",
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        > */}
         {/* Only show the loading indicator if the posts are still loading */}
         {loadingPosts ? (
           <div className="col-lg-12 d-flex justify-center">
@@ -116,55 +97,6 @@ const PostList = () => {
               post._embedded["wp:featuredmedia"][0].source_url;
 
             return (
-              // <div
-              //   key={post.id}
-              //   className="card d-flex flex-column"
-              //   style={{
-              //     width: "18rem",
-              //     height: "460px",
-              //     borderRadius: "4px",
-              //     display: "flex",
-              //     flexDirection: "column",
-              //   }}
-              // >
-              //   <img
-              //     className="card-img-top"
-              //     style={{
-              //       objectFit: "cover",
-              //       height: "200px",
-              //     }}
-              //     src={
-              //       hasFeaturedMedia
-              //         ? post._embedded["wp:featuredmedia"][0].source_url
-              //         : "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg"
-              //     }
-              //     alt={post.title.rendered}
-              //   />
-              //   <div className="card-body">
-              //     <p
-              //       style={{
-              //         fontSize: "16px",
-              //         paddingRight: "20px",
-              //         color: "#222",
-              //       }}
-              //     >
-              //       {formattedDate} <br />
-              //       {post.title.rendered}
-              //     </p>
-              //     <p
-              //       style={{ fontSize: "12px", color: "#222" }}
-              //       dangerouslySetInnerHTML={{
-              //         __html: post.excerpt.rendered.substring(0, 80),
-              //       }}
-              //     />
-              //     <p style={{ fontSize: "14px" }}>
-              //       Author: {getAuthorUsername(post.author)} <br />
-              //       <a href={`/posts/${post.id}`} target="_self">
-              //         > Read the article...
-              //       </a>
-              //     </p>
-              //   </div>
-              // </div>
               <>
                 <div className="col">
                   <div className="card">
@@ -235,8 +167,6 @@ const PostList = () => {
             <h2>No posts found.</h2>
           </div>
         )}
-        {/* </div>
-      </div> */}
       </div>
     </>
   );
