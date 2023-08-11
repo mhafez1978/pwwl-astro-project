@@ -69,7 +69,14 @@ const { pageTitle, pageDescription, pageKeywords } = Astro.props;
     <Topbar />
     <Navbar title={pageTitle} />
     <slot />
-
+    <script
+      src="https://static.elfsight.com/platform/platform.js"
+      data-use-service-core
+      defer></script>
+    <div
+      class="elfsight-app-3f105c0a-4109-4308-8129-8e449e4dac64 back-to-top-2"
+    >
+    </div>
     <Footer />
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" is:inline

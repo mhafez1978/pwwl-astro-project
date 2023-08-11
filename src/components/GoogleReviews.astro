@@ -1,9 +1,15 @@
 ---
 import GoogleReviewsComponent from "./GoogleReviews";
-const apiKey = "AIzaSyDnnDz8WsoBz8_QFgthQ6EjUulLYHF9bJA";
-const placeId = "ChIJQa6ZqEaxVogRvZA4fHBoEEs";
 import GBizReviews from "./GBizReviews.astro";
+
+const apiKey = import.meta.env.PUBLIC_APIKEY;
+const placeId = import.meta.env.PUBLIC_GPLACEID;
 ---
 
 <!-- <GoogleReviewsComponent apiKey={apiKey} placeId={placeId} client:load /> -->
 <GBizReviews />
+
+<!-- <script>
+  console.log(import.meta.env.PUBLIC_GPLACEID);
+  console.log(import.meta.env.PUBLIC_APIKEY);
+</script> -->
