@@ -1,0 +1,218 @@
+<template>
+  <>
+    <div class="container" style={{ marginTop: '45px' }}>
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <div class="row">
+            <!-- Show the loading indicator if data is not available -->
+            <template v-if="loadingPosts">
+              <div class="col-lg-12 d-flex justify-center">
+                <img
+                  src="https://i.gifer.com/origin/ba/ba4eeed06a8f9efb0d7b5ad26f1f8d45_w200.gif"
+                  alt=""
+                  width="400"
+                />
+              </div>
+            </template>
+            <!-- Show the post list if data is available -->
+            <template v-else-if="posts.length > 0">
+              <div
+                v-for="post in currentPosts"
+                class="card d-flex flex-column"
+                style={{
+                  width: '18rem',
+                  height: '26rem',
+                  borderRadius: '4px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  padding: '0',
+                  margin: '.5rem'
+                }}
+              >
+                <img
+                  class="card-img-top"
+                  style={{
+                    objectFit: 'cover',
+                    height: '10rem'
+                  }}
+                  :src="hasFeaturedMedia(post) ? post._embedded['wp:featuredmedia'][0].source_url : 'https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg'"
+                  :alt="post.title.rendered"
+                />
+                <div class="card-body" style={{ height: '14rem' }}>
+                  <p
+                    style={{
+                      fontSize: '16px',
+                      color: '#222'
+                    }}
+                  >
+                    {{ post.title.rendered.substring(0, 55) }}
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '14px',
+                      paddingRight: '20px',
+                      color: '#222',
+                      fontWeight: '500'
+                    }}
+                  >
+                    Published: {{ formatDate(post.date) }} <br />
+                    By: {{ getAuthorUsername(post.author) }}
+                  </p>
+                  <p
+                    style={{
+                      fontSize: '12px',
+                      color: '#222'
+                    }}
+                    v-html="post.content.rendered.substring(0, 100)"
+                  />
+                  <div
+                    style={{
+                      border: '1px solid red',
+                      height: '4rem',
+                      display: 'flex',
+                      justifyContent: 'center',
+                      position: 'relative'
+                    }}
+                  >
+                    <button
+                      style={{
+                        padding: '2px 30px',
+                        position: 'absolute',
+                        bottom: '10px'
+                      }}
+                      :href="`/posts/${post.id}`"
+                      target="_self"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </template>
+            <!-- Show a message if no posts are found -->
+            <template v-else>
+              <div class="col-lg-12 d-flex justify-content-center">
+                <h2>No posts found.</h2>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Show pagination only if data is available -->
+    <template v-if="!loadingPosts">
+      <div class="container" style={{ marginTop: '45px' }}>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul class="pagination">
+              <PaginationButton
+                label="Previous"
+                :onClick="() => handlePageChange(currentPage - 1)"
+                :disabled="currentPage === 1"
+              />
+              <template v-for="index in totalPages" :key="index">
+                <PaginationButton
+                  :label="index"
+                  :onClick="() => handlePageChange(index)"
+                  :disabled="currentPage === index"
+                />
+              </template>
+              <PaginationButton
+                label="Next"
+                :onClick="() => handlePageChange(currentPage + 1)"
+                :disabled="currentPage === totalPages"
+              />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </template>
+  </>
+</template>
+
+<script setup>
+  import { useState, useEffect } from 'react';
+  import { format } from 'date-fns';
+  import axios from 'axios';
+
+  const API_URL = `https://charlottecitylimo.com/wp-json/wp/v2/posts?_embed&per_page=100`;
+  const Author_URL = `https://charlottecitylimo.com/wp-json/wp/v2/users`;
+
+  const fetchAllPosts = async () => {
+    try {
+      const response = await axios.get(API_URL);
+      return response.data;
+    } catch (error) {
+      console.log('Error fetching posts:', error);
+      return [];
+    }
+  };
+
+  const fetchAllAuthors = async () => {
+    try {
+      const response = await axios.get(Author_URL);
+      return response.data;
+    } catch (error) {
+      console.log('Error fetching authors:', error);
+      return [];
+    }
+  };
+
+  // Data fetching and state management
+  const { data: posts, loading: loadingPosts } = useFetchData(fetchAllPosts);
+  const { data: postAuthors } = useFetchData(fetchAllAuthors);
+  const [totalPosts, setTotalPosts] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const postsPerPage = 6;
+
+  const useFetchData = (fetchData) => {
+    const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+      const fetchDataAsync = async () => {
+        setLoading(true);
+        const data = await fetchData();
+        setData(data);
+        setLoading(false);
+      };
+      fetchDataAsync();
+    }, [fetchData]);
+
+    return { data, loading };
+  };
+
+  const getAuthorUsername = (authorId) => {
+    const author = postAuthors.find((author) => author.id === authorId);
+    return author ? author.slug : 'Frankie C';
+  };
+
+  const hasFeaturedMedia = (post) =>
+    post?._embedded &&
+    post._embedded['wp:featuredmedia'] &&
+    post._embedded['wp:featuredmedia'][0] &&
+    post._embedded['wp:featuredmedia'][0].source_url;
+
+  const formatDate = (date) => format(new Date(date), 'MMMM dd, yyyy');
+
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+  const totalPages = Math.ceil(totalPosts / postsPerPage);
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const PaginationButton = ({ label, onClick, disabled }) => (
+    <li class={`page-item ${disabled ? 'disabled' : ''}`}>
+      <button class="page-link" onClick={onClick}>
+        {label}
+      </button>
+    </li>
+  );
+</script>
+
+<style>
+  /* Add your custom styles here */
+</style>
