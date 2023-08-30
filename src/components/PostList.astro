@@ -35,8 +35,8 @@
                     objectFit: 'cover',
                     height: '10rem'
                   }}
-                  :src="hasFeaturedMedia(post) ? post._embedded['wp:featuredmedia'][0].source_url : 'https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg'"
-                  :alt="post.title.rendered"
+                  src="hasFeaturedMedia(post) ? post._embedded['wp:featuredmedia'][0].source_url : 'https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg'"
+                  alt="post.title.rendered"
                 />
                 <div class="card-body" style={{ height: '14rem' }}>
                   <p
@@ -80,7 +80,7 @@
                         position: 'absolute',
                         bottom: '10px'
                       }}
-                      :href="`/posts/${post.id}`"
+                      href="`/posts/${post.id}`"
                       target="_self"
                     >
                       Read More
@@ -107,20 +107,20 @@
             <ul class="pagination">
               <PaginationButton
                 label="Previous"
-                :onClick="() => handlePageChange(currentPage - 1)"
-                :disabled="currentPage === 1"
+                onClick="() => handlePageChange(currentPage - 1)"
+                disabled="currentPage === 1"
               />
               <template v-for="index in totalPages" :key="index">
                 <PaginationButton
-                  :label="index"
-                  :onClick="() => handlePageChange(index)"
-                  :disabled="currentPage === index"
+                  label="index"
+                  onClick="() => handlePageChange(index)"
+                  disabled="currentPage === index"
                 />
               </template>
               <PaginationButton
                 label="Next"
-                :onClick="() => handlePageChange(currentPage + 1)"
-                :disabled="currentPage === totalPages"
+                onClick="() => handlePageChange(currentPage + 1)"
+                disabled="currentPage === totalPages"
               />
             </ul>
           </div>
@@ -205,7 +205,7 @@
   };
 
   const PaginationButton = ({ label, onClick, disabled }) => (
-    <li class={`page-item ${disabled ? 'disabled' : ''}`}>
+    <li className={`page-item ${disabled ? 'disabled' : ''}`}>
       <button class="page-link" onClick={onClick}>
         {label}
       </button>
