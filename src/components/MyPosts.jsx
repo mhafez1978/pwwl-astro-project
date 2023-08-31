@@ -6,7 +6,7 @@ function AstroComponent() {
   useEffect(() => {
     const fetchData = async () => {
       const res = await fetch(
-        "https://charlottecitylimo.com/wp-json/wp/v2/posts?_embed&_per_page=1"
+        "https://charlottecitylimo.com/wp-json/wp/v2/posts?_embed"
       );
       const data = await res.json();
       setPosts(data);
