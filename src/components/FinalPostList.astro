@@ -1,0 +1,43 @@
+---
+let currentPage = 1;
+const postsPerPage = 9;
+
+const res = await fetch(
+  "https://charlottecitylimo.com/wp-json/wp/v2/posts?per_page=38"
+);
+
+const posts = await res.json();
+
+const indexOfLastPost = currentPage * postsPerPage;
+const indexOfFirstPost = indexOfLastPost - postsPerPage;
+const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+
+const paginate = (pageNumber: number) => (currentPage = pageNumber);
+---
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="row">
+      {
+        posts.map((post) => (
+          <div class="col-lg-4">
+            <h3>{post.title.rendered}</h3>
+          </div>
+        ))
+      }
+
+      <div class="text-center">
+        {
+          Array.from(
+            { length: Math.ceil(posts.length / postsPerPage) },
+            (_, index) => (
+              <button key={index} onClick={() => paginate(index + 1)}>
+                {index + 1}
+              </button>
+            )
+          )
+        }
+      </div>
+    </div>
+  </div>
+</div>

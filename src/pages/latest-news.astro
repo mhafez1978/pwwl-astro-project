@@ -5,6 +5,9 @@ import ToTop from "../components/ToTop.astro";
 import PostsPagination from "../components/PostsPagination";
 import MyPosts from "../components/MyPosts";
 import ExternalPosts from "../components/ExternalPosts.astro";
+import ExternalBlogPosts from "../components/ExternalBlogPosts.astro";
+import ReactPostList from "../components/ReactPostList";
+import FinalPostList from "../components/FinalPostList.astro";
 ---
 
 <LandingLayout
@@ -40,7 +43,10 @@ import ExternalPosts from "../components/ExternalPosts.astro";
     <div class="container mx-auto">
       <!-- <PostsPagination client:load /> -->
       <!-- <ExternalPosts /> -->
-      <MyPosts client:load />
+      <!-- <MyPosts client:load /> -->
+      <!-- <ExternalBlogPosts /> -->
+      <ReactPostList client:load />
+      <!-- <FinalPostList /> -->
     </div>
   </div>
   <ToTop />
