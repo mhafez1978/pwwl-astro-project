@@ -9,7 +9,7 @@ function AstroComponent() {
         "https://charlottecitylimo.com/wp-json/wp/v2/posts?_embed"
       );
       const data = await res.json();
-      console.log(1);
+      console.log(2);
       setPosts(data);
     };
 
