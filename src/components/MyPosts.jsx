@@ -9,7 +9,6 @@ function AstroComponent() {
         "https://charlottecitylimo.com/wp-json/wp/v2/posts?_embed"
       );
       const data = await res.json();
-      console.log(2);
       setPosts(data);
     };
 
@@ -57,11 +56,7 @@ function AstroComponent() {
                   }}
                 />
 
-                <a
-                  href={`/posts/${post.id}`}
-                  target="_self"
-                  rel="noopener noreferrer"
-                >
+                <a href={`/posts/${post.id}`} target="_self">
                   Read More
                 </a>
               </div>
