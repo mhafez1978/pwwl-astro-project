@@ -95,16 +95,12 @@ function MyPostList() {
                       <br />
                       Published on {formattedDate}
                     </p>
-                    <p
-                      className="card-text"
-                      style={{ fontSize: "14px" }}
-                      dangerouslySetInnerHTML={{
-                        __html:
-                          post.excerpt.rendered
-                            .substring(3, 300)
-                            .replace(/[^a-zA-Z0-9 ]/g, "") + `...`,
-                      }}
-                    />
+                    <p className="card-text" style={{ fontSize: "14px" }}>
+                      {post.excerpt.rendered
+                        .substring(3, 340)
+                        .replace(/[^a-zA-Z0-9 ]/g, "")}
+                      ...
+                    </p>
 
                     <a href={`/posts/${post.id}`} target="_self">
                       Read More
