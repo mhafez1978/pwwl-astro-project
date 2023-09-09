@@ -25,7 +25,7 @@ function MyPostList() {
   useEffect(() => {
     const fetchData = async () => {
       const res = await fetch(
-        `https://charlottechoicelimos.com/api/wp-json/wp/v2/posts?_embed&per_page=9&page=${currentPage}`
+        `https://charlottechoicelimos.com/wp-json/wp/v2/posts?_embed&per_page=9&page=${currentPage}`
       );
 
       setTotalPages(Number(res.headers.get("X-WP-TotalPages")));
@@ -41,7 +41,7 @@ function MyPostList() {
   useEffect(() => {
     const fetchAuthors = async () => {
       const res = await fetch(
-        "https://charlottechoicelimos.com/api/wp-json/wp/v2/users"
+        "https://charlottechoicelimos.com/wp-json/wp/v2/users"
       );
       const data = await res.json();
       setAuthors(data);
