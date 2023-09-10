@@ -13,7 +13,7 @@ const ReactPostList = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://charlottecitylimo.com/wp-json/wp/v2/posts?per_page=38"
+          "https://charlottechoicelimos.com/wp-json/wp/v2/posts?per_page=38"
         );
         const data = await response.json();
         setAllPosts(data);

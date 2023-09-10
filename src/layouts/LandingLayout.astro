@@ -62,18 +62,6 @@ const { pageTitle, pageDescription, pageKeywords } = Astro.props;
 
     <!-- Template Stylesheet -->
     <link href="/assets/css/style.css" rel="stylesheet" />
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-11324982291"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "AW-11324982291");
-    </script>
   </head>
 
   <body>
@@ -105,5 +93,19 @@ const { pageTitle, pageDescription, pageKeywords } = Astro.props;
       async></script>
     <!-- Template Javascript -->
     <script src="/assets/js/main.js" is:inline></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-11324982291"
+      is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-11324982291");
+    </script>
   </body>
 </html>

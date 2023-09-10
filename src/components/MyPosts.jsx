@@ -24,14 +24,22 @@ function MyPostList() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch(
-        `https://charlottechoicelimos.com/wp-json/wp/v2/posts?_embed&per_page=9&page=${currentPage}`
-      );
+      try {
+        const res = await fetch(
+          `https://charlottechoicelimos.com/wp-json/wp/v2/posts?_embed&per_page=9&page=${currentPage}`
+        );
 
-      setTotalPages(Number(res.headers.get("X-WP-TotalPages")));
+        if (!res.ok) {
+          throw new Error("Network response was not ok");
+        }
 
-      const data = await res.json();
-      setPosts(data);
+        setTotalPages(Number(res.headers.get("X-WP-TotalPages")));
+
+        const data = await res.json();
+        setPosts(data);
+      } catch (error) {
+        console.error("There was a problem with the fetch operation:", error);
+      }
     };
 
     fetchData();
