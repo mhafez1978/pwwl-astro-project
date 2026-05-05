@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/image": "^0.17.2",
-    "@astrojs/netlify": "^2.5.1",
+    "@astrojs/netlify": "^7.0.8",
     "@astrojs/react": "^2.2.1",
     "@astrojs/tailwind": "^4.0.0",
     "@emailjs/browser": "^3.11.0",
@@ -20,13 +20,13 @@
     "@heroicons/react": "^2.0.18",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "astro": "^2.9.1",
-    "axios": "^1.4.0",
+    "astro": "^6.1.6",
+    "axios": "^1.15.2",
     "date-fns": "^2.30.0",
     "dotenv": "^16.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sharp": "^0.32.4",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.3.3"
   }
 }
